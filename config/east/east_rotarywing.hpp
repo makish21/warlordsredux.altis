@@ -111,42 +111,42 @@ class RotaryWing {
         };
     }; // "Mi-48 Kajman"
 
-    class O_Heli_Attack_02_sead_F: O_Heli_Attack_02_dynamicLoadout_F {
-        cost = 15000;
-        description = "Mi-55 Kajman-M is a variant of the Mi-48 Kajman with a powerful device jammer. Gunner seat must be player-operated.";
-        killReward = 650;
-        name = "Mi-55 Kajman-M";
-        spawn = "O_Heli_Attack_02_dynamicLoadout_F";
-        variant = 1;
+    // class O_Heli_Attack_02_sead_F: O_Heli_Attack_02_dynamicLoadout_F {
+    //     cost = 15000;
+    //     description = "Mi-55 Kajman-M is a variant of the Mi-48 Kajman with a powerful device jammer. Gunner seat must be player-operated.";
+    //     killReward = 650;
+    //     name = "Mi-55 Kajman-M";
+    //     spawn = "O_Heli_Attack_02_dynamicLoadout_F";
+    //     variant = 1;
 
-        class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {
-                "CMFlareLauncher_Singles"
-            };
-            removeMagazines[] = {
-                "192Rnd_CMFlare_Chaff_Magazine"
-            };
-            removeWeapons[] = {
-                "CMFlareLauncher"
-            };
-            turret[] = { -1 };
-        };
+    //     class Pilot: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {
+    //             "CMFlareLauncher_Singles"
+    //         };
+    //         removeMagazines[] = {
+    //             "192Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         removeWeapons[] = {
+    //             "CMFlareLauncher"
+    //         };
+    //         turret[] = { -1 };
+    //     };
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {};
-            addWeapons[] = {};
-            deviceJammer = 1;
-            removeMagazines[] = {
-                "250Rnd_30mm_APDS_shells_Tracer_Green",
-                "250Rnd_30mm_HE_shells_Tracer_Green"
-            };
-            removeWeapons[] = {
-                "gatling_30mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {};
+    //         addWeapons[] = {};
+    //         deviceJammer = 1;
+    //         removeMagazines[] = {
+    //             "250Rnd_30mm_APDS_shells_Tracer_Green",
+    //             "250Rnd_30mm_HE_shells_Tracer_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "gatling_30mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 };

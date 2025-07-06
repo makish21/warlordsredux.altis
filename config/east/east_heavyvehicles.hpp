@@ -8,44 +8,44 @@ class HeavyVehicles {
         requirements[] = {};
     }; // "MSE-3 Marid"
 
-    class O_LT_01_AT_F {
-        aps = 1;
-        capValue = 3;
-        cost = 1500;
-        killReward = 240;
-        name = "AWC Nyx (AT)";
-        rearm = 300;
-        requirements[] = {};
-        spawn = "I_LT_01_AT_F";
-        textures[] = {
-            "src\img\camo\nyx01.jpg",
-            "src\img\camo\nyx02.jpg",
-            "a3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa",
-            "A3\Armor_F\Data\cage_csat_green_CO.paa"
-        };
+    // class O_LT_01_AT_F {
+    //     aps = 1;
+    //     capValue = 3;
+    //     cost = 1500;
+    //     killReward = 240;
+    //     name = "AWC Nyx (AT)";
+    //     rearm = 300;
+    //     requirements[] = {};
+    //     spawn = "I_LT_01_AT_F";
+    //     textures[] = {
+    //         "src\img\camo\nyx01.jpg",
+    //         "src\img\camo\nyx02.jpg",
+    //         "a3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa",
+    //         "A3\Armor_F\Data\cage_csat_green_CO.paa"
+    //     };
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles",
-                "2Rnd_127mm_Firefist_missiles"
-            };
-            addWeapons[] = {
-                "missiles_Firefist"
-            };
-            reloadOverride = 10;
-            removeMagazines[] = {
-                "100Rnd_127x99_mag_Tracer_Red"
-            };
-            removeWeapons[] = {
-                "HMG_127",
-                "missiles_Firefist"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         reloadOverride = 10;
+    //         removeMagazines[] = {
+    //             "100Rnd_127x99_mag_Tracer_Red"
+    //         };
+    //         removeWeapons[] = {
+    //             "HMG_127",
+    //             "missiles_Firefist"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     // class O_APC_Wheeled_02_rcws_v2_m_F {
     //     aps = 2;
@@ -77,38 +77,38 @@ class HeavyVehicles {
     //     };
     // };
 
-    class O_APC_Tracked_02_recon_F {
-        aps = 2;
-        capValue = 1;
-        cost = 2700;
-        description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
-        hasHMD = 1;
-        hasScanner = 1;
-        killReward = 300;
-        name = "BTR-K Kamysh (Recon)";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "O_APC_Tracked_02_cannon_F";
-        variant = 1;
+    // class O_APC_Tracked_02_recon_F {
+    //     aps = 2;
+    //     capValue = 1;
+    //     cost = 2700;
+    //     description = "BTR-K Kamysh (Recon) is a variant of the BTR-K Kamysh armed with a powerful scanner.";
+    //     hasHMD = 1;
+    //     hasScanner = 1;
+    //     killReward = 300;
+    //     name = "BTR-K Kamysh (Recon)";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_cannon_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {};
-            addWeapons[] = {};
-            hideTurret = 1;
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles_O",
-                "140Rnd_30mm_MP_shells_Tracer_Green",
-                "60Rnd_30mm_APFSDS_shells_Tracer_Green",
-                "200Rnd_762x51_Belt_Green"
-            };
-            removeWeapons[] = {
-                "missiles_titan",
-                "autocannon_30mm_CTWS",
-                "LMG_coax_ext"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {};
+    //         addWeapons[] = {};
+    //         hideTurret = 1;
+    //         removeMagazines[] = {
+    //             "2Rnd_GAT_missiles_O",
+    //             "140Rnd_30mm_MP_shells_Tracer_Green",
+    //             "60Rnd_30mm_APFSDS_shells_Tracer_Green",
+    //             "200Rnd_762x51_Belt_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan",
+    //             "autocannon_30mm_CTWS",
+    //             "LMG_coax_ext"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     class O_APC_Tracked_02_cannon_F {
         aps = 2;
@@ -139,44 +139,44 @@ class HeavyVehicles {
         };
     }; // "BTR-K Kamysh"
 
-    class O_APC_Tracked_02_heavy_F {
-        aps = 2;
-        capValue = 3;
-        cost = 4000;
-        description = "BTR-KM Kamysh is a variant of the BTR-K Kamysh armed with a 40mm cannon.";
-        disallowMagazines[] = {
-            "4Rnd_GAA_missiles"
-        };
-        killReward = 350;
-        name = "BTR-KM Kamysh";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "O_APC_Tracked_02_cannon_F";
-        variant = 1;
+    // class O_APC_Tracked_02_heavy_F {
+    //     aps = 2;
+    //     capValue = 3;
+    //     cost = 4000;
+    //     description = "BTR-KM Kamysh is a variant of the BTR-K Kamysh armed with a 40mm cannon.";
+    //     disallowMagazines[] = {
+    //         "4Rnd_GAA_missiles"
+    //     };
+    //     killReward = 350;
+    //     name = "BTR-KM Kamysh";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_cannon_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles",
-                "240Rnd_40mm_GPR_Tracer_Red_shells",
-                "160Rnd_40mm_APFSDS_Tracer_Red_shells"
-            };
-            addWeapons[] = {
-                "autocannon_40mm_VTOL_01",
-                "missiles_titan"
-            };
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles_O",
-                "60Rnd_30mm_APFSDS_shells_Tracer_Green",
-                "140Rnd_30mm_MP_shells_Tracer_Green"
-            };
-            removeWeapons[] = {
-                "missiles_titan",
-                "autocannon_30mm_CTWS"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "5Rnd_GAT_missiles",
+    //             "5Rnd_GAT_missiles",
+    //             "240Rnd_40mm_GPR_Tracer_Red_shells",
+    //             "160Rnd_40mm_APFSDS_Tracer_Red_shells"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_40mm_VTOL_01",
+    //             "missiles_titan"
+    //         };
+    //         removeMagazines[] = {
+    //             "2Rnd_GAT_missiles_O",
+    //             "60Rnd_30mm_APFSDS_shells_Tracer_Green",
+    //             "140Rnd_30mm_MP_shells_Tracer_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan",
+    //             "autocannon_30mm_CTWS"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     // class O_MBT_02_cannon_export_F {
     //     aps = 3;
@@ -275,29 +275,30 @@ class HeavyVehicles {
     //     };
     // };
 
-    // class O_MBT_02_railgun_F {
-    //     aps = 3;
-    //     capValue = 4;
-    //     cost = 15000;
-    //     killReward = 500;
-    //     rearm = 600;
-    //     requirements[] = {};
-    // }; // "T-100 Futura"
+    class O_MBT_02_railgun_F {
+        aps = 3;
+        capValue = 4;
+        cost = 15000;
+        killReward = 500;
+        rearm = 600;
+        requirements[] = {};
+    }; // "T-100 Futura"
 
     class I_Truck_02_MRL_F {
         aps = 1;
         capValue = 4;
         cost = 18000;
-        disallowMagazines[] = {
-            "12Rnd_230mm_rockets_cluster"
-        };
+        // disallowMagazines[] = {
+        //     "12Rnd_230mm_rockets_cluster"
+        // };
         killReward = 600;
         rearm = 1800;
         requirements[] = {};
         textures[] = {
             "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
             "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-            "\a3\soft_f_gamma\truck_02\data\truck_02_mrl_OPFOR_co.paa"
+            "\a3\soft_f_gamma\truck_02\data\truck_02_mrl_OPFOR_co.paa",
+            "\A3\Soft_F_Beta\Truck_02\data\truck_02_chassis_OPFOR_CO.paa"
         };
     }; // "Zamak MRL"
 
@@ -305,60 +306,60 @@ class HeavyVehicles {
         aps = 1;
         capValue = 4;
         cost = 20000;
-        disallowMagazines[] = {
-            "2Rnd_155mm_Mo_Cluster",
-            "2Rnd_155mm_Mo_Cluster_O"
-        };
+        // disallowMagazines[] = {
+        //     "2Rnd_155mm_Mo_Cluster",
+        //     "2Rnd_155mm_Mo_Cluster_O"
+        // };
         killReward = 600;
         rearm = 1800;
         requirements[] = {};
     }; // "2S9 Sochor"
 
-    class O_MBT_02_arty_tv_F {
-        ammoOverrides[] = {
-            {"Sh_155mm_AMOS", {"M_Krasnopol", "Krasnopol (TV-Guided)"}}
-        };
-        aps = 1;
-        capValue = 4;
-        cost = 30000;
-        disallowMagazines[] = {
-            "2Rnd_155mm_Mo_guided",
-            "4Rnd_155mm_Mo_guided",
-            "2Rnd_155mm_Mo_LG",
-            "4Rnd_155mm_Mo_LG",
-            "6Rnd_155mm_Mo_mine",
-            "6Rnd_155mm_Mo_AT_mine",
-            "2Rnd_155mm_Mo_Cluster",
-            "6Rnd_155mm_Mo_smoke",
-            "2Rnd_155mm_Mo_guided_O",
-            "4Rnd_155mm_Mo_guided_O",
-            "4Rnd_155mm_Mo_LG_O",
-            "6Rnd_155mm_Mo_mine_O",
-            "6Rnd_155mm_Mo_AT_mine_O",
-            "2Rnd_155mm_Mo_Cluster_O",
-            "6Rnd_155mm_Mo_smoke_O"
-        };
-        killReward = 600;
-        name = "2S9M Sochor II";
-        rearm = 1800;
-        requirements[] = {};
-        spawn = "O_MBT_02_arty_F";
-        variant = 1;
+    // class O_MBT_02_arty_tv_F {
+    //     ammoOverrides[] = {
+    //         {"Sh_155mm_AMOS", {"M_Krasnopol", "Krasnopol (TV-Guided)"}}
+    //     };
+    //     aps = 1;
+    //     capValue = 4;
+    //     cost = 30000;
+    //     disallowMagazines[] = {
+    //         "2Rnd_155mm_Mo_guided",
+    //         "4Rnd_155mm_Mo_guided",
+    //         "2Rnd_155mm_Mo_LG",
+    //         "4Rnd_155mm_Mo_LG",
+    //         "6Rnd_155mm_Mo_mine",
+    //         "6Rnd_155mm_Mo_AT_mine",
+    //         "2Rnd_155mm_Mo_Cluster",
+    //         "6Rnd_155mm_Mo_smoke",
+    //         "2Rnd_155mm_Mo_guided_O",
+    //         "4Rnd_155mm_Mo_guided_O",
+    //         "4Rnd_155mm_Mo_LG_O",
+    //         "6Rnd_155mm_Mo_mine_O",
+    //         "6Rnd_155mm_Mo_AT_mine_O",
+    //         "2Rnd_155mm_Mo_Cluster_O",
+    //         "6Rnd_155mm_Mo_smoke_O"
+    //     };
+    //     killReward = 600;
+    //     name = "2S9M Sochor II";
+    //     rearm = 1800;
+    //     requirements[] = {};
+    //     spawn = "O_MBT_02_arty_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {};
-            addWeapons[] = {};
-            removeMagazines[] = {
-                "6Rnd_155mm_Mo_smoke_O",
-                "2Rnd_155mm_Mo_guided_O",
-                "4Rnd_155mm_Mo_guided_O",
-                "4Rnd_155mm_Mo_LG_O",
-                "6Rnd_155mm_Mo_mine_O",
-                "6Rnd_155mm_Mo_AT_mine_O",
-                "2Rnd_155mm_Mo_Cluster_O"
-            };
-            removeWeapons[] = {};
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {};
+    //         addWeapons[] = {};
+    //         removeMagazines[] = {
+    //             "6Rnd_155mm_Mo_smoke_O",
+    //             "2Rnd_155mm_Mo_guided_O",
+    //             "4Rnd_155mm_Mo_guided_O",
+    //             "4Rnd_155mm_Mo_LG_O",
+    //             "6Rnd_155mm_Mo_mine_O",
+    //             "6Rnd_155mm_Mo_AT_mine_O",
+    //             "2Rnd_155mm_Mo_Cluster_O"
+    //         };
+    //         removeWeapons[] = {};
+    //         turret[] = { 0 };
+    //     };
+    // };
 };

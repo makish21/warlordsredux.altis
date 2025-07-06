@@ -1,13 +1,13 @@
 class RemoteControl {
-    class RuggedTerminal_01_communications_F {
-        cost = 50;
-        demolishable = 1;
-        killReward = 25;
-        loadable[] = { 0, 0, 0 };
-        name = "Ground Support Terminal";
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    };
+    // class RuggedTerminal_01_communications_F {
+    //     cost = 50;
+    //     demolishable = 1;
+    //     killReward = 25;
+    //     loadable[] = { 0, 0, 0 };
+    //     name = "Ground Support Terminal";
+    //     offset[] = {0, 3, 0};
+    //     requirements[] = {};
+    // };
 
     class B_UGV_02_Demining_F {
         cost = 100;
@@ -112,29 +112,29 @@ class RemoteControl {
     //     };
     // };
 
-    class B_UAV_02_recon_F {
-        cost = 2000;
-        description = "Greyhawk (Recon) is an unarmed variant of the Greyhawk with a powerful scanner.";
-        disallowMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles",
-            "PylonRack_1Rnd_Missile_AA_04_F",
-            "PylonRack_1Rnd_AAA_missiles",
-            "PylonRack_1Rnd_LG_scalpel",
-            "PylonRack_3Rnd_LG_scalpel",
-            "PylonRack_7Rnd_Rocket_04_HE_F",
-            "PylonRack_7Rnd_Rocket_04_AP_F",
-            "PylonRack_12Rnd_missiles",
-            "PylonMissile_1Rnd_Bomb_04_F",
-            "PylonMissile_1Rnd_Mk82_F"
-        };
-        hasHMD = 1;
-        hasScanner = 1;
-        killReward = 400;
-        name = "MQ-4R Greyhawk (Recon)";
-        rearm = 300;
-        requirements[] = {"H"};
-        spawn = "B_UAV_02_dynamicLoadout_F";
-    };
+    // class B_UAV_02_recon_F {
+    //     cost = 2000;
+    //     description = "Greyhawk (Recon) is an unarmed variant of the Greyhawk with a powerful scanner.";
+    //     disallowMagazines[] = {
+    //         "PylonRack_12Rnd_PG_missiles",
+    //         "PylonRack_1Rnd_Missile_AA_04_F",
+    //         "PylonRack_1Rnd_AAA_missiles",
+    //         "PylonRack_1Rnd_LG_scalpel",
+    //         "PylonRack_3Rnd_LG_scalpel",
+    //         "PylonRack_7Rnd_Rocket_04_HE_F",
+    //         "PylonRack_7Rnd_Rocket_04_AP_F",
+    //         "PylonRack_12Rnd_missiles",
+    //         "PylonMissile_1Rnd_Bomb_04_F",
+    //         "PylonMissile_1Rnd_Mk82_F"
+    //     };
+    //     hasHMD = 1;
+    //     hasScanner = 1;
+    //     killReward = 400;
+    //     name = "MQ-4R Greyhawk (Recon)";
+    //     rearm = 300;
+    //     requirements[] = {"H"};
+    //     spawn = "B_UAV_02_dynamicLoadout_F";
+    // };
 
     class B_UAV_02_dynamicLoadout_F {
         cost = 6000;
@@ -182,4 +182,12 @@ class RemoteControl {
             addWeapons[] = {};
         };
     }; // "UCAV Sentinel"
+    
+    class B_Ship_MRLS_01_F {
+        cost = 30000;
+        requirements[] = {};
+        offset[] = {0, 7, 0};
+        rearm = 2700;
+        killReward = 1800;
+    };  // "Mk41 VLS"
 };

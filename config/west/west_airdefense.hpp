@@ -88,38 +88,38 @@ class AirDefense {
         requirements[] = {};
     }; // "MIM-145 Defender"
 
-    class B_APC_Tracked_01_AA_UP_F {
-        aps = 2;
-        capValue = 4;
-        cost = 10000;
-        description = "IFV-6X Puma is a variant of the IFV-6a Cheetah armed with Defender missiles.";
-        hasHMD = 1;
-        killReward = 600;
-        name = "IFV-6X Puma";
-        rearm = 270;
-        requirements[] = {};
-        spawn = "B_APC_Tracked_01_AA_F";
-        variant = 1;
+    // class B_APC_Tracked_01_AA_UP_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 10000;
+    //     description = "IFV-6X Puma is a variant of the IFV-6a Cheetah armed with Defender missiles.";
+    //     hasHMD = 1;
+    //     killReward = 600;
+    //     name = "IFV-6X Puma";
+    //     rearm = 270;
+    //     requirements[] = {};
+    //     spawn = "B_APC_Tracked_01_AA_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "magazine_Missile_mim145_x4",
-                "680Rnd_35mm_AA_shells_Tracer_Red"
-            };
-            addWeapons[] = {
-                "autocannon_35mm",
-                "weapon_mim145Launcher"
-            };
-            removeMagazines[] = {
-                "4Rnd_Titan_long_missiles"
-            };
-            removeWeapons[] = {
-                "missiles_titan_AA",
-                "autocannon_35mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "magazine_Missile_mim145_x4",
+    //             "680Rnd_35mm_AA_shells_Tracer_Red"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_35mm",
+    //             "weapon_mim145Launcher"
+    //         };
+    //         removeMagazines[] = {
+    //             "4Rnd_Titan_long_missiles"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan_AA",
+    //             "autocannon_35mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     class B_SAM_System_01_F {
         cost = 10000;
@@ -143,37 +143,37 @@ class AirDefense {
         requirements[] = {};
     }; // "Mk21 Centurion"
 
-    class B_APC_Tracked_01_AA_E_F {
-        aps = 2;
-        capValue = 4;
-        cost = 17000;
-        description = "IFV-6C Jaguar is a variant of the IFV-6a Cheetah armed with Mk21 Centurion missiles.";
-        hasHMD = 1;
-        killReward = 600;
-        name = "IFV-6C Jaguar";
-        rearm = 360;
-        requirements[] = {};
-        spawn = "B_APC_Tracked_01_AA_F";
-        variant = 1;
+    // class B_APC_Tracked_01_AA_E_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 17000;
+    //     description = "IFV-6C Jaguar is a variant of the IFV-6a Cheetah armed with Mk21 Centurion missiles.";
+    //     hasHMD = 1;
+    //     killReward = 600;
+    //     name = "IFV-6C Jaguar";
+    //     rearm = 360;
+    //     requirements[] = {};
+    //     spawn = "B_APC_Tracked_01_AA_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "magazine_Missile_rim162_x8",
-                "680Rnd_35mm_AA_shells_Tracer_Red"
-            };
-            addWeapons[] = {
-                "autocannon_35mm",
-                "weapon_rim162Launcher"
-            };
-            removeMagazines[] = {
-                "4Rnd_Titan_long_missiles",
-                "680Rnd_35mm_AA_shells_Tracer_Red"
-            };
-            removeWeapons[] = {
-                "missiles_titan_AA",
-                "autocannon_35mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "magazine_Missile_rim162_x8",
+    //             "680Rnd_35mm_AA_shells_Tracer_Red"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_35mm",
+    //             "weapon_rim162Launcher"
+    //         };
+    //         removeMagazines[] = {
+    //             "4Rnd_Titan_long_missiles",
+    //             "680Rnd_35mm_AA_shells_Tracer_Red"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan_AA",
+    //             "autocannon_35mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 };

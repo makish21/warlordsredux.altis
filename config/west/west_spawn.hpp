@@ -2,18 +2,18 @@ class Spawn {
     class B_Truck_01_medical_F {
         capValue = 1;
         killReward = 100;
-        name = "NATO Medical Truck";
+        name = "$STR_A3_WL_asset_name_medical_truck_nato";
     }; // HEMMT Spawn Truck
 
     class B_Slingload_01_Medevac_F {
         killReward = 300;
         loadable[] = { 0, 0, 0 };
-        name = "NATO Medical Pod";
+        name = "$STR_A3_WL_asset_name_medical_pod_nato";
     }; // Huron Spawn
 
     class Land_TentA_F {
         garbageCollector = 1;
-        name = "Deployed Tent";
+        name = "$STR_A3_WL_asset_name_deployed_tent";
     };
 
     class ForwardBaseSupplies {

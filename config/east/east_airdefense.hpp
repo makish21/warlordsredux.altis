@@ -94,38 +94,38 @@ class AirDefense {
         requirements[] = {};
     };  // "S-750 Rhea"
 
-    class O_APC_Tracked_02_AA_M_F {
-        aps = 2;
-        capValue = 4;
-        cost = 10000;
-        description = "ZSU-49 Euphrates is a variant of the ZSU-39 Tigris armed with Rhea missiles.";
-        hasHMD = 1;
-        killReward = 600;
-        name = "ZSU-49 Euphrates";
-        rearm = 270;
-        requirements[] = {};
-        spawn = "O_APC_Tracked_02_AA_F";
-        variant = 1;
+    // class O_APC_Tracked_02_AA_M_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 10000;
+    //     description = "ZSU-49 Euphrates is a variant of the ZSU-39 Tigris armed with Rhea missiles.";
+    //     hasHMD = 1;
+    //     killReward = 600;
+    //     name = "ZSU-49 Euphrates";
+    //     rearm = 270;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_AA_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "magazine_Missile_s750_x4",
-                "680Rnd_35mm_AA_shells_Tracer_Green"
-            };
-            addWeapons[] = {
-                "autocannon_35mm",
-                "weapon_s750Launcher"
-            };
-            removeMagazines[] = {
-                "4Rnd_Titan_long_missiles_O"
-            };
-            removeWeapons[] = {
-                "missiles_titan_AA",
-                "autocannon_35mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "magazine_Missile_s750_x4",
+    //             "680Rnd_35mm_AA_shells_Tracer_Green"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_35mm",
+    //             "weapon_s750Launcher"
+    //         };
+    //         removeMagazines[] = {
+    //             "4Rnd_Titan_long_missiles_O"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan_AA",
+    //             "autocannon_35mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     class O_SAM_System_01_F {
         cost = 10000;
@@ -141,7 +141,7 @@ class AirDefense {
         textures[] = {
             "A3\Static_F_Jets\SAM_System_01\Data\SAM_system_01_olive_co.paa"
         };
-    };
+    }; // "Mk49 Spartan"
 
     class O_SAM_System_02_F {
         cost = 15000;
@@ -157,39 +157,39 @@ class AirDefense {
         textures[] = {
             "A3\Static_F_Jets\SAM_System_02\Data\SAM_system_02_olive_co.paa"
         };
-    };
+    }; // "Mk21 Centurion"
 
-    class O_APC_Tracked_02_AA_E_F {
-        aps = 2;
-        capValue = 4;
-        cost = 17000;
-        description = "ZSU-59 Yangtze is a variant of the ZSU-39 Tigris armed with Mk21 Centurion missiles.";
-        hasHMD = 1;
-        killReward = 600;
-        name = "ZSU-59 Yangtze";
-        rearm = 360;
-        requirements[] = {};
-        spawn = "O_APC_Tracked_02_AA_F";
-        variant = 1;
+    // class O_APC_Tracked_02_AA_E_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 17000;
+    //     description = "ZSU-59 Yangtze is a variant of the ZSU-39 Tigris armed with Mk21 Centurion missiles.";
+    //     hasHMD = 1;
+    //     killReward = 600;
+    //     name = "ZSU-59 Yangtze";
+    //     rearm = 360;
+    //     requirements[] = {};
+    //     spawn = "O_APC_Tracked_02_AA_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "magazine_Missile_rim162_x8",
-                "680Rnd_35mm_AA_shells_Tracer_Green"
-            };
-            addWeapons[] = {
-                "autocannon_35mm",
-                "weapon_rim162Launcher"
-            };
-            removeMagazines[] = {
-                "4Rnd_Titan_long_missiles_O",
-                "680Rnd_35mm_AA_shells_Tracer_Green"
-            };
-            removeWeapons[] = {
-                "missiles_titan_AA",
-                "autocannon_35mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "magazine_Missile_rim162_x8",
+    //             "680Rnd_35mm_AA_shells_Tracer_Green"
+    //         };
+    //         addWeapons[] = {
+    //             "autocannon_35mm",
+    //             "weapon_rim162Launcher"
+    //         };
+    //         removeMagazines[] = {
+    //             "4Rnd_Titan_long_missiles_O",
+    //             "680Rnd_35mm_AA_shells_Tracer_Green"
+    //         };
+    //         removeWeapons[] = {
+    //             "missiles_titan_AA",
+    //             "autocannon_35mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 };

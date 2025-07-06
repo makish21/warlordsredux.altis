@@ -9,9 +9,9 @@ dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
 zeusCompositionScriptLevel = 2;
-adminIDs[] = {"76561198034106257", "76561198049721952", "76561197960667971", "76561198025492474"};
-pollstersIDs[] = {"76561198025492474"};
-spectatorIDs[] = {"76561198034106257"};
+adminIDs[] = {"76561198050235389"};
+pollstersIDs[] = {"76561198050235389"};
+spectatorIDs[] = {"76561198050235389"};
 
 //Settings
 respawn = 3;

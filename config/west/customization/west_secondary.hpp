@@ -164,39 +164,39 @@ class Secondary {
         attachments[] = {};
     };
 
-    class SpectrumDevice {
-        name = "Spectrum Device";
-        item = "hgun_esd_01_F";
-        level = 20;
-        cost = 50;
-        magazines[] = {};
+    // class SpectrumDevice {
+    //     name = "Spectrum Device";
+    //     item = "hgun_esd_01_F";
+    //     level = 20;
+    //     cost = 50;
+    //     magazines[] = {};
 
-        class LongRangeAntenna: WLCAttachment {
-            name = "SD Military Antenna";
-            attachments[] = {
-                "muzzle_antenna_01_f"
-            };
-        };
+    //     class LongRangeAntenna: WLCAttachment {
+    //         name = "SD Military Antenna";
+    //         attachments[] = {
+    //             "muzzle_antenna_01_f"
+    //         };
+    //     };
 
-        class RangeBoosterAntenna: WLCAttachment {
-            name = "Experimental Antenna";
-            attachments[] = {
-                "muzzle_antenna_02_f"
-            };
-        };
+    //     class RangeBoosterAntenna: WLCAttachment {
+    //         name = "Experimental Antenna";
+    //         attachments[] = {
+    //             "muzzle_antenna_02_f"
+    //         };
+    //     };
 
-        class ShortRangeAntenna: WLCAttachment {
-            name = "SD Jammer Antenna";
-            attachments[] = {
-                "muzzle_antenna_03_f"
-            };
-        };
+    //     class ShortRangeAntenna: WLCAttachment {
+    //         name = "SD Jammer Antenna";
+    //         attachments[] = {
+    //             "muzzle_antenna_03_f"
+    //         };
+    //     };
 
-        class NoAntenna: WLCAttachment {
-            name = "No Antenna";
-            attachments[] = {};
-        };
+    //     class NoAntenna: WLCAttachment {
+    //         name = "No Antenna";
+    //         attachments[] = {};
+    //     };
 
-        attachments[] = {};
-    };
+    //     attachments[] = {};
+    // };
 };
