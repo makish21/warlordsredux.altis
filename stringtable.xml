@@ -1421,9 +1421,15 @@
         </Key>
 
         <Key ID="STR_A3_WL_CustomizedUnit_info">
-            <Original>Buy infantry with your customized loadout</Original>
-            <English>Buy infantry with your customized loadout</English>
-            <Russian>Приобрести бойца с вашим кастомным снаряжением</Russian>
+            <Original>Buy infantry with your saved loadout</Original>
+            <English>Buy infantry with your saved loadout</English>
+            <Russian>Приобрести бойца с вашим сохранённым снаряжением</Russian>
+        </Key>
+        
+        <Key ID="STR_A3_WL2_CustomizedUnit_no_saved_gear">
+            <Original>No saved gear yet</Original>
+            <English>No saved gear yet</English>
+            <Russian>Ещё нет сохранённого снаряжения</Russian>
         </Key>
 
         <Key ID="STR_A3_WL_OSD_owner">
@@ -2299,6 +2305,7 @@
             <English>Repack Magazines</English>
             <Russian>Перепаковка магазинов</Russian>
         </Key>
+
     </Container>
 
     <Container name="MRTM_welcomeScreen">

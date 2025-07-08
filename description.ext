@@ -55,7 +55,7 @@ BIS_WL_arsenalCost = 1000;
 BIS_WL_assetLimit = 10;
 BIS_WL_scanCooldown = 300;
 BIS_WL_lastLoadoutCost = 100;
-BIS_WL_savedLoadoutCost = 500;
+BIS_WL_savedLoadoutCost = 350;
 BIS_WL_baseValue = 50;
 BIS_WL_autonomous_limit = 2;
 BIS_WL_minAPSDist = 1000; //actual range = √x
