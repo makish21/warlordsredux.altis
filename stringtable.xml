@@ -1582,10 +1582,10 @@
             <English>Warning volume:</English>
             <Russian>Громкость предупреждений:</Russian>
         </Key>
-        <Key ID="STR_A3_WL_settings_RWR_warning_volume_disabled_tooltip">
-            <Original>This option is disabled</Original>
-            <English>This option is disabled</English>
-            <Russian>Эта опция отключена</Russian>
+        <Key ID="STR_A3_WL_settings_RWR_warning_volume_tooltip">
+            <Original>Incoming missiles, speed, fuel, taken damage</Original>
+            <English>Incoming missiles, speed, fuel, taken damage</English>
+            <Russian>Ракеты, скорость, топливо, повреждения</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_RWR_other_volume">
             <Original>Other:</Original>
@@ -2304,6 +2304,30 @@
             <Original>Repack Magazines</Original>
             <English>Repack Magazines</English>
             <Russian>Перепаковка магазинов</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_action_respawn">
+            <Original>Respawn</Original>
+            <English>Respawn</English>
+            <Russian>Возрождение</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_action_revive">
+            <Original>Revive</Original>
+            <English>Revive</English>
+            <Russian>Стабилизировать</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_action_customization">
+            <Original>Customization</Original>
+            <English>Customization</English>
+            <Russian>Кастомизация</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_settings_cooldown">
+            <Original>Cooldown: %1</Original>
+            <English>Cooldown: %1</English>
+            <Russian>Ожидание: %1</Russian>
         </Key>
 
     </Container>

@@ -13,6 +13,8 @@ adminIDs[] = {"76561198050235389"};
 pollstersIDs[] = {"76561198050235389"};
 spectatorIDs[] = {"76561198050235389"};
 
+spectatorHideSpotASL[] = {2304.97, 9243.11, 11.5};
+
 //Settings
 respawn = 3;
 respawnDelay = 30;
