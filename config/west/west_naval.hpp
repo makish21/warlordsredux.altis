@@ -24,39 +24,39 @@ class Naval {
         requirements[] = {"W"};
     };	// "Speedboat Minigun"
 
-    class B_Boat_Armed_01_autocannon_F {
-        cost = 1000;
-        description = "Riverine Command Boat is an upgraded, heavily-armed variant of the Speedboat.";
-        disallowMagazines[] = {
-            "4Rnd_GAA_missiles"
-        };
-        killReward = 100;
-        name = "Riverine Command Boat";
-        rearm = 400;
-        requirements[] = {"W"};
-        spawn = "B_Boat_Armed_01_minigun_F";
-        variant = 1;
+    // class B_Boat_Armed_01_autocannon_F {
+    //     cost = 1000;
+    //     description = "Riverine Command Boat is an upgraded, heavily-armed variant of the Speedboat.";
+    //     disallowMagazines[] = {
+    //         "4Rnd_GAA_missiles"
+    //     };
+    //     killReward = 100;
+    //     name = "Riverine Command Boat";
+    //     rearm = 400;
+    //     requirements[] = {"W"};
+    //     spawn = "B_Boat_Armed_01_minigun_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "60Rnd_20mm_HE_shells",
-                "60Rnd_20mm_HE_shells",
-                "60Rnd_20mm_AP_shells",
-                "60Rnd_20mm_AP_shells",
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "cannon_20mm",
-                "missiles_titan"
-            };
-            removeMagazines[] = {
-                "96Rnd_40mm_G_belt"
-            };
-            removeWeapons[] = {
-                "GMG_40mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "60Rnd_20mm_HE_shells",
+    //             "60Rnd_20mm_HE_shells",
+    //             "60Rnd_20mm_AP_shells",
+    //             "60Rnd_20mm_AP_shells",
+    //             "5Rnd_GAT_missiles",
+    //             "5Rnd_GAT_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "cannon_20mm",
+    //             "missiles_titan"
+    //         };
+    //         removeMagazines[] = {
+    //             "96Rnd_40mm_G_belt"
+    //         };
+    //         removeWeapons[] = {
+    //             "GMG_40mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 };
