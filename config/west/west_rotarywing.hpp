@@ -137,6 +137,14 @@ class RotaryWing {
     //     };
     // };
 
+    class B_Heli_Transport_01_pylons_F  {
+        cost = 1500;
+        killReward = 300;
+        offset[] = {0, 11, 0};
+        rearm = 300;
+        requirements[] = {"H"};
+    }; // "UH-80 Ghost Hawk (stub wings)"
+
     class B_Heli_Attack_01_dynamicLoadout_F {
         allowPylonMagazines[] = {
             "PylonRack_Missile_HARM_x1"
@@ -160,6 +168,30 @@ class RotaryWing {
             turret[] = { -1 };
         };
     }; // "AH-99 Blackfoot"
+
+    class B_Heli_Attack_01_pylons_dynamicLoadout_F  {
+        allowPylonMagazines[] = {
+            "PylonRack_Missile_HARM_x1"
+        };
+        cost = 15000;
+        hasHMD = 1;
+        killReward = 600;
+        offset[] = {0, 10, 0};
+        rearm = 700;
+        requirements[] = {"H"};
+
+        class Pilot: WLTurretDefaults {
+            addMagazines[] = {};
+            addWeapons[] = {
+                "CMFlareLauncher_Singles"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "CMFlareLauncher"
+            };
+            turret[] = { -1 };
+        };
+    }; // "AH-99 Blackfoot (stub wings)"
 
     // class B_Heli_Attack_01_sead_F: B_Heli_Attack_01_dynamicLoadout_F {
     //     cost = 18000;

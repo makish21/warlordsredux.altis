@@ -4,7 +4,7 @@
 #include "src\scripts\WLM\ui\WLM_pylons.hpp"
 #include "src\scripts\SQD\squadMenu.hpp"
 
-onLoadName = "Warlords Redux 2.6.10";
+onLoadName = "Warlords Redux Classic";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;
@@ -14,6 +14,8 @@ pollstersIDs[] = {"76561198050235389"};
 spectatorIDs[] = {"76561198050235389"};
 
 spectatorHideSpotASL[] = {2304.97, 9243.11, 11.5};
+
+arsenalRestrictedItems[] = {"hgun_esd_01_F", "hgun_esd_01_dummy_F", "hgun_esd_01_base_F", "hgun_esd_01_antenna_03_F", "hgun_esd_01_antenna_02_F", "hgun_esd_01_antenna_01_F"};
 
 //Settings
 respawn = 3;
