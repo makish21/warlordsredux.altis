@@ -146,9 +146,6 @@ class RotaryWing {
     }; // "UH-80 Ghost Hawk (stub wings)"
 
     class B_Heli_Attack_01_dynamicLoadout_F {
-        allowPylonMagazines[] = {
-            "PylonRack_Missile_HARM_x1"
-        };
         cost = 13000;
         hasHMD = 1;
         killReward = 550;

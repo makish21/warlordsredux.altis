@@ -235,9 +235,7 @@ class FixedWing {
         rearm = 900;
         requirements[] = {"A"};
         class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
+            addMagazines[] = {};
             addWeapons[] = {
                 "CMFlareLauncher_Singles"
             };
@@ -263,9 +261,7 @@ class FixedWing {
         requirements[] = {"A"};
 
         class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
+            addMagazines[] = {};
             addWeapons[] = {
                 "CMFlareLauncher_Singles"
             };

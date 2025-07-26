@@ -192,9 +192,7 @@ class FixedWing {
         requirements[] = {"A"};
 
         class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
+            addMagazines[] = {};
             addWeapons[] = {};
             removeMagazines[] = {};
             removeWeapons[] = {};
@@ -236,9 +234,7 @@ class FixedWing {
         requirements[] = {"A"};
 
         class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
+            addMagazines[] = {};
             addWeapons[] = {};
             removeMagazines[] = {};
             removeWeapons[] = {};
