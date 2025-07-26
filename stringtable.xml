@@ -2330,6 +2330,12 @@
             <Russian>Ожидание: %1</Russian>
         </Key>
 
+        <Key ID="STR_A3_WL2_downed_for">
+            <Original>Downed for %1</Original>
+            <English>Downed for %1</English>
+            <Russian>Дестабилизирован %1 сек.</Russian>
+        </Key>
+
     </Container>
 
     <Container name="MRTM_welcomeScreen">

@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=3410;
+		nextID=3412;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=83;
+		nextID=84;
 	};
 	class Camera
 	{
 		pos[]={4727.1548,1043.929,11003.084};
-		dir[]={-0.6247862,-0.45132038,0.63715994};
-		up[]={-0.31599054,0.89236051,0.32224843};
-		aside[]={0.7140128,-2.9237708e-07,0.70014787};
+		dir[]={-0.62477964,-0.4513157,0.63715357};
+		up[]={-0.31598401,0.89236438,0.3222422};
+		aside[]={0.71400613,-2.9802322e-08,0.70013964};
 	};
 };
 binarizationWanted=0;
@@ -237,7 +237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=954;
+		items=956;
 		class Item0
 		{
 			dataType="Logic";
@@ -20351,16 +20351,41 @@ class Mission
 			id=3409;
 			atlOffset=-0.00032997131;
 		};
+		class Item954
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2000,-0.11799622,2000};
+			};
+			init="this setVariable [""BIS_WL_name"", ""Wait""];";
+			id=3410;
+			type="Logic";
+			atlOffset=185.85201;
+		};
+		class Item955
+		{
+			dataType="Trigger";
+			position[]={2000,-0.12400818,2000};
+			class Attributes
+			{
+				sizeA=0;
+				sizeB=0;
+			};
+			id=3411;
+			type="EmptyDetector";
+			atlOffset=185.84599;
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=249;
+			nextID=250;
 		};
 		class Links
 		{
-			items=249;
+			items=250;
 			class Item0
 			{
 				linkID=0;
@@ -22846,6 +22871,16 @@ class Mission
 				linkID=248;
 				item0=1408;
 				item1=1454;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item249
+			{
+				linkID=249;
+				item0=3411;
+				item1=3410;
 				class CustomData
 				{
 					type="Sync";

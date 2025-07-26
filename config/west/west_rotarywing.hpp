@@ -138,8 +138,8 @@ class RotaryWing {
     // };
 
     class B_Heli_Transport_01_pylons_F  {
-        cost = 1500;
-        killReward = 300;
+        cost = 8000;
+        killReward = 450;
         offset[] = {0, 11, 0};
         rearm = 300;
         requirements[] = {"H"};
