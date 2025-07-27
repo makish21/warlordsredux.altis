@@ -141,7 +141,7 @@ class RemoteControl {
         hasHMD = 1;
         killReward = 600;
         rearm = 300;
-        requirements[] = {"H"};
+        requirements[] = {"A"};
     }; // "Greyhawk"
 
     class B_T_UAV_03_dynamicLoadout_F {

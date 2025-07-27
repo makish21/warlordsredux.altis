@@ -147,7 +147,7 @@ class RemoteControl {
         hasHMD = 1;
         killReward = 600;
         rearm = 300;
-        requirements[] = {"H"};
+        requirements[] = {"A"};
 
         class Pilot: WLTurretDefaults {
             addMagazines[] = {
@@ -179,7 +179,7 @@ class RemoteControl {
         hasHMD = 1;
         killReward = 600;
         rearm = 300;
-        requirements[] = {"H"};
+        requirements[] = {"A"};
     }; // "K40 Ababil-3"
 
     class B_Ship_MRLS_01_F {

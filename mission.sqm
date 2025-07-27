@@ -20358,7 +20358,7 @@ class Mission
 			{
 				position[]={2000,-0.11799622,2000};
 			};
-			init="this setVariable [""BIS_WL_name"", ""Wait""];";
+			init="this setVariable [""BIS_WL_name"", ""Wait""]; this setVariable [""BIS_WL_canBeBase"", FALSE];";
 			id=3410;
 			type="Logic";
 			atlOffset=185.85201;
