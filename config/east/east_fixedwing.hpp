@@ -148,8 +148,8 @@ class FixedWing {
 
     class O_T_VTOL_02_infantry_dynamicLoadout_F {
         allowPylonMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles",
-            "PylonMissile_Missile_KH58_INT_x1"
+            "PylonRack_12Rnd_PG_missiles"/*,
+            "PylonMissile_Missile_KH58_INT_x1"*/
         };
 
         cost = 14000;
@@ -223,13 +223,7 @@ class FixedWing {
     }; // "To-199 Neophron (CAS)"
 
     class O_Plane_Fighter_02_Stealth_F {
-        allowPylonMagazines[] = {
-            "PylonMissile_Missile_KH58_INT_x1"
-        };
         cost = 28000;
-        disallowMagazines[] = {
-            "PylonMissile_Missile_KH58_x1"
-        };
         hasHMD = 1;
         killReward = 1100;
         rearm = 900;
@@ -248,13 +242,7 @@ class FixedWing {
     }; // "To-201 Shikra (Stealth)"
 
     class O_Plane_Fighter_02_F {
-        allowPylonMagazines[] = {
-            "PylonMissile_Missile_KH58_INT_x1"
-        };
         cost = 32000;
-        disallowMagazines[] = {
-            "PylonMissile_Missile_KH58_x1"
-        };
         hasHMD = 1;
         killReward = 1100;
         rearm = 900;

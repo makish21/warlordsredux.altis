@@ -4,7 +4,7 @@
 #include "src\scripts\WLM\ui\WLM_pylons.hpp"
 #include "src\scripts\SQD\squadMenu.hpp"
 
-onLoadName = "Warlords Redux Classic";
+onLoadName = "Warlords Reloaded";
 dev = "Jezuro + WSV";
 author = "Jezuro + WSV";
 allowFunctionsLog = 1;

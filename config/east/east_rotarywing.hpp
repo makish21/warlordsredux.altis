@@ -84,8 +84,8 @@ class RotaryWing {
 
     class O_Heli_Attack_02_dynamicLoadout_F {
         allowPylonMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles",
-            "PylonMissile_Missile_KH58_INT_x1"
+            "PylonRack_12Rnd_PG_missiles"/*,
+            "PylonMissile_Missile_KH58_INT_x1"*/
         };
         cost = 10000;
         hasHMD = 1;

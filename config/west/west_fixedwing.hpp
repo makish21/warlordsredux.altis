@@ -182,9 +182,9 @@ class FixedWing {
     // }; // "A-149 Gryphon"
 
     class B_Plane_Fighter_01_F {
-        allowPylonMagazines[] = {
-            "PylonRack_Missile_HARM_x1"
-        };
+        // allowPylonMagazines[] = {
+        //     "PylonRack_Missile_HARM_x1"
+        // };
         cost = 30000;
         hasHMD = 1;
         killReward = 1000;
@@ -224,9 +224,9 @@ class FixedWing {
     // };
 
     class B_Plane_Fighter_01_Stealth_F {
-        allowPylonMagazines[] = {
-            "PylonRack_Missile_HARM_x1"
-        };
+        // allowPylonMagazines[] = {
+        //     "PylonRack_Missile_HARM_x1"
+        // };
         cost = 35000;
         hasHMD = 1;
         killReward = 1000;

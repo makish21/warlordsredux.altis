@@ -21,10 +21,10 @@ class WLProjectilesConfig {
         ammo[] = {
             "ammo_Bomb_SDB"                     // SDB
         };
-        aps = 3;
+        aps = 1;
         camera = 1;
-        consumption = 3;
-        dazzleable = 1;
+        consumption = 4;
+        dazzleable = 0;
     };
 
     class WLProjectile_SAM: WLProjectile {
@@ -56,10 +56,10 @@ class WLProjectilesConfig {
             "ammo_Missile_HARM",                // AGM-88 HARM
             "ammo_Missile_KH58"                 // Kh-58
         };
-        aps = 1;
+        aps = 3;
         camera = 1;
         consumption = 3;
-        dazzleable = 1;
+        dazzleable = 0;
         sead = 1;
     };
 

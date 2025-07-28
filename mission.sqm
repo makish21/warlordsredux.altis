@@ -210,14 +210,14 @@ randomSeed=3694325;
 class ScenarioData
 {
 	author="Jezuro+WSV";
-	overviewText="Warlords Redux introduces hundreds of improvements of the original Warlords.";
+	overviewText="Warlords Reloaded introduces hundreds of improvements of the original Warlords.";
 	overViewPicture="identity\wd_redux.paa";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="Warlords Redux Classic | WSV";
+		briefingName="Warlords Reloaded | WSV";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
