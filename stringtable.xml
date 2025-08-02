@@ -2336,6 +2336,18 @@
             <Russian>Дестабилизирован %1 сек.</Russian>
         </Key>
 
+        <Key ID="STR_SQUADS_squads_title">
+            <Original>Squads tree:</Original>
+            <English>Squads tree:</English>
+            <Russian>Дерево отрядов:</Russian>
+        </Key>
+
+        <Key ID="STR_SQUADS_players_title">
+            <Original>Squad-less teammates:</Original>
+            <English>Squad-less teammates:</English>
+            <Russian>Игроки без отряда:</Russian>
+        </Key>
+
     </Container>
 
     <Container name="MRTM_welcomeScreen">
