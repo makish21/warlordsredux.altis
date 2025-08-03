@@ -1076,6 +1076,12 @@
     </Container>
 
     <Container name="WL2_tanoaAdded">
+        <Key ID="STR_A3_WL2_mission_overview">
+            <Original>Warlords Reloaded takes best parts of different Warlords versions</Original>
+            <English>Warlords Reloaded takes best parts of different Warlords versions</English>
+            <Russian>Warlords Reloaded сочетает в себе лучшее из разных версий Warlords</Russian>
+        </Key>
+
         <Key ID="STR_A3_WL2_asset_delete_dialog_title">
             <Original>Delete asset</Original>
             <English>Delete asset</English>

@@ -17,6 +17,10 @@ Warlord Redux discord: https://discord.gg/grmzsZE4ua
 
 Warlords Redux Server info: https://www.battlemetrics.com/servers/arma3/5449720
 
+## Warlords Reloaded
+
+Warlords Reloaded discord: https://discord.gg/FaK3RTMSph
+
 ## Want to get involed  
 
 Github page: you are already here :)

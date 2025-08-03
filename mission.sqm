@@ -210,7 +210,7 @@ randomSeed=3694325;
 class ScenarioData
 {
 	author="Jezuro+WSV";
-	overviewText="Warlords Reloaded introduces hundreds of improvements of the original Warlords.";
+	overviewText=$STR_A3_WL2_mission_overview;
 	overViewPicture="identity\wd_redux.paa";
 };
 class Mission
