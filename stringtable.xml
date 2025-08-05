@@ -2311,6 +2311,17 @@
             <English>Repack Magazines</English>
             <Russian>Перепаковка магазинов</Russian>
         </Key>
+        <Key ID="STR_A3_WL2_repack_magazines_progress">
+            <Original>Repacking Mags…</Original>
+            <English>Repacking Mags…</English>
+            <Russian>Перепаковка магазинов…</Russian>
+        </Key>
+        <Key ID="STR_A3_WL2_magazines_repacked">
+            <Original>Magazines Repacked</Original>
+            <English>Magazines Repacked</English>
+            <Russian>Магазины перепакованы</Russian>
+        </Key>
+
 
         <Key ID="STR_A3_WL2_action_respawn">
             <Original>Respawn</Original>
