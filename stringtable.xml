@@ -2365,6 +2365,68 @@
             <Russian>Игроки без отряда:</Russian>
         </Key>
 
+        <Key ID="STR_ammo_override_countermeasures">
+            <Original>Countermeasures</Original>
+            <English>Countermeasures</English>
+            <Russian>Ложные тепловые цели</Russian>
+        </Key>
+        <Key ID="STR_ammo_override_smokes">
+            <Original>Smoke launcher ammo</Original>
+            <English>Smoke launcher ammo</English>
+            <Russian>Дымовая завеса</Russian>
+        </Key>
+
+        <Key ID="STR_quick_buy_code_hint">
+            <Original>Code: %1</Original>
+            <English>Code: %1</English>
+            <Russian>Быстрая покупка: %1</Russian>
+        </Key>
+        <Key ID="STR_quick_buy_code_invalid">
+            <Original>Invalid buy code</Original>
+            <English>Invalid buy code</English>
+            <Russian>Некорректный номер быстрой покупки</Russian>
+        </Key>
+        <Key ID="STR_quick_buy_requires_ui">
+            <Original>Invalid task requires UI: %1</Original>
+            <English>Invalid task requires UI: %1</English>
+            <Russian>Необходим выбор через интерфейс: %1</Russian>
+        </Key>
+        <Key ID="STR_quick_buy_selected">
+            <Original>Selected [%1]: %2</Original>
+            <English>Selected [%1]: %2</English>
+            <Russian>Быстрая покупка [%1]: %2</Russian>
+        </Key>
+        <Key ID="STR_quick_buy_item_unavailable">
+            <Original>Invalid buy action: %1</Original>
+            <English>Invalid buy action: %1</English>
+            <Russian>Недоступно: %1</Russian>
+        </Key>
+
+        <Key ID="STR_AAA_description">
+            <Original>Short range air defense artillery with a high rate of fire. Effective range: 3km.</Original>
+            <English>Short range air defense artillery with a high rate of fire. Effective range: 3km.</English>
+            <Russian>Зенитно-артиллерийский комплекс ближнего действия с высокой скорострельностью. Эффективная дальность: 3 км.</Russian>
+        </Key>
+        <Key ID="STR_LRRS_description">
+            <Original>Long range radar system, capable of detecting and tracking vehicles within line of sight at up to 16km</Original>
+            <English>Long range radar system, capable of detecting and tracking vehicles within line of sight at up to 16km</English>
+            <Russian>Радиолокационная станция обнаружения и сопровождения кругового обзора дальнего радиуса действия до 16 км</Russian>
+        </Key>
+        <Key ID="STR_LRAA_description">
+            <Original>Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: &gt;10km.</Original>
+            <English>Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: &gt;10km.</English>
+            <Russian>Зенитно-ракетный комплекс дальнего действия стационарного типа. Эффективная дальность: &gt;10 км.</Russian>
+        </Key>
+        <Key ID="STR_SRAA_description">
+            <Original>Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.</Original>
+            <English>Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.</English>
+            <Russian>Зенитно-ракетный комплекс малой дальности стационарного типа. Эффективная дальность: 4 км.</Russian>
+        </Key>
+        <Key ID="STR_MRAA_description">
+            <Original>Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.</Original>
+            <English>Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.</English>
+            <Russian>Зенитно-ракетный комплекс средней дальности стационарного типа. Эффективная дальность: ~10 км.</Russian>
+        </Key>
     </Container>
 
     <Container name="MRTM_welcomeScreen">

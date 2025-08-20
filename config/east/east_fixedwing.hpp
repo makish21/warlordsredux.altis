@@ -1,7 +1,7 @@
 class FixedWing {
     class O_Plane_Civil_01_F {
         cost = 800;
-        description = "Caesar BTT is a light unarmed aircraft.";
+        // description = "Caesar BTT is a light unarmed aircraft.";
         killReward = 200;
         name = "Caesar BTT";
         requirements[] = {"A"};
