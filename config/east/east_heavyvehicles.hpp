@@ -1,7 +1,8 @@
 class HeavyVehicles {
+
     class O_APC_Wheeled_02_rcws_v2_F {
         aps = 2;
-        capValue = 2;
+        capValue = 3;
         cost = 1500;
         killReward = 300;
         rearm = 400;
@@ -212,7 +213,7 @@ class HeavyVehicles {
     class O_MBT_02_cannon_F {
         aps = 3;
         capValue = 4;
-        cost = 7500;
+        cost = 8000;
         killReward = 500;
         rearm = 600;
         requirements[] = {};
@@ -283,6 +284,57 @@ class HeavyVehicles {
         rearm = 600;
         requirements[] = {};
     }; // "T-100 Futura"
+
+    class O_Mortar_01_F {
+        cost = 4000;
+        demolishable = 1;
+        killReward = 125;
+        loadable[] = {0, -2.5, 0};
+        offset[] = {0, 3, 0};
+        rearm = 900;
+        requirements[] = {};
+    };  // "Mortar"
+
+    // class O_Mortar_01_TV_F {
+    //     ammoOverrides[] = {
+    //         {"M_127mm_Firefist_AT", {"M_Lancet", "Lancet (Loitering Munition)"}}
+    //     };
+    //     cost = 6000;
+    //     demolishable = 1;
+    //     description = "Lancet Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
+    //     killReward = 125;
+    //     loadable[] = {0, -2.5, 0};
+    //     name = "Lancet Launcher";
+    //     offset[] = {0, 3, 0};
+    //     rearm = 900;
+    //     requirements[] = {};
+    //     spawn = "O_Mortar_01_F";
+    //     variant = 1;
+
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         removeMagazines[] = {
+    //             "8Rnd_82mm_Mo_shells",
+    //             "8Rnd_82mm_Mo_Flare_white",
+    //             "8Rnd_82mm_Mo_Smoke_white",
+    //             "8Rnd_82mm_Mo_guided",
+    //             "8Rnd_82mm_Mo_LG"
+    //         };
+    //         removeWeapons[] = {
+    //             "mortar_82mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
     class I_Truck_02_MRL_F {
         aps = 1;
@@ -362,4 +414,13 @@ class HeavyVehicles {
     //         turret[] = { 0 };
     //     };
     // };
+
+    class B_Ship_MRLS_01_F {
+        cost = 30000;
+        requirements[] = {};
+        offset[] = {0, 7, 0};
+        rearm = 2700;
+        killReward = 700;
+    };  // "Mk41 VLS"
+
 };

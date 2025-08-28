@@ -1,4 +1,5 @@
 class RemoteControl {
+
     // class RuggedTerminal_01_communications_F {
     //     cost = 50;
     //     demolishable = 1;
@@ -24,14 +25,6 @@ class RemoteControl {
         requirements[] = {};
     };  // "UGV Stomper"
 
-    class O_UAV_01_F {
-        cost = 500;
-        hasHMD = 1;
-        killReward = 100;
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    };  // "AR-2"
-
     class O_UGV_01_rcws_F {
         cost = 500;
         killReward = 100;
@@ -39,6 +32,14 @@ class RemoteControl {
         rearm = 300;
         requirements[] = {};
     };  // "UGAV rcws"
+
+    class O_UAV_01_F {
+        cost = 500;
+        hasHMD = 1;
+        killReward = 100;
+        offset[] = {0, 3, 0};
+        requirements[] = {};
+    };  // "AR-2"
 
     class O_UAV_06_F {
         cost = 1000;
@@ -111,7 +112,7 @@ class RemoteControl {
     //         turret[] = { 0 };
     //     };
     // };
-
+    
     // class O_UAV_02_recon_F {
     //     cost = 2000;
     //     description = "K40R (Recon) is an unarmed variant of the K40 Ababil-3 with a powerful scanner.";
@@ -145,7 +146,7 @@ class RemoteControl {
     class O_T_UAV_04_CAS_F {
         cost = 5000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 450;
         rearm = 300;
         requirements[] = {"A"};
 
@@ -172,21 +173,14 @@ class RemoteControl {
     }; // "KH-3A Fenghuang"
 
     class O_UAV_02_dynamicLoadout_F {
-        allowPylonMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles"
-        };
+        // allowPylonMagazines[] = {
+        //     "PylonRack_12Rnd_PG_missiles"
+        // };
         cost = 6000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 500;
         rearm = 300;
         requirements[] = {"A"};
     }; // "K40 Ababil-3"
 
-    class B_Ship_MRLS_01_F {
-        cost = 30000;
-        requirements[] = {};
-        offset[] = {0, 7, 0};
-        rearm = 2700;
-        killReward = 700;
-    };  // "Mk41 VLS"
 };

@@ -1,8 +1,35 @@
 class HeavyVehicles {
+
+    class B_APC_Tracked_01_CRV_F {
+        aps = 2;
+        capValue = 3;
+        cost = 1700;
+        killReward = 300;
+        rearm = 400;
+        requirements[] = {};
+    }; // "CRV-6e Bobcat"
+
+    // class B_APC_tracked_03_cannon_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 2500;
+    //     killReward = 400;
+    //     name = "FV-720 Mora";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "I_APC_tracked_03_cannon_F";
+    //     textures[] = {
+    //         "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
+    //         "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext2_eaf_co.paa",
+    //         "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
+    //         "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
+    //     };
+    // };
+
     class B_APC_Tracked_01_rcws_F {
         aps = 2;
         capValue = 3;
-        cost = 1300;
+        cost = 1800;
         killReward = 300;
         rearm = 400;
         requirements[] = {};
@@ -65,37 +92,11 @@ class HeavyVehicles {
     //     };
     // };
 
-    class B_APC_Tracked_01_CRV_F {
-        aps = 2;
-        capValue = 2;
-        cost = 1700;
-        killReward = 300;
-        rearm = 400;
-        requirements[] = {};
-    }; // "CRV-6e Bobcat"
-
-    // class B_APC_tracked_03_cannon_F {
-    //     aps = 2;
-    //     capValue = 4;
-    //     cost = 2500;
-    //     killReward = 400;
-    //     name = "FV-720 Mora";
-    //     rearm = 500;
-    //     requirements[] = {};
-    //     spawn = "I_APC_tracked_03_cannon_F";
-    //     textures[] = {
-    //         "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext_eaf_co.paa",
-    //         "A3\Armor_F_Enoch\apc_tracked_03\data\apc_tracked_03_ext2_eaf_co.paa",
-    //         "A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
-    //         "A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa"
-    //     };
-    // };
-
     class B_APC_Wheeled_01_cannon_F {
         aps = 2;
         capValue = 3;
         cost = 2700;
-        killReward = 300;
+        killReward = 350;
         rearm = 500;
         requirements[] = {};
     }; // "AMV-7 Marshall"
@@ -138,7 +139,7 @@ class HeavyVehicles {
         disallowMagazines[] = {
             "4Rnd_GAA_missiles"
         };
-        killReward = 300;
+        killReward = 350;
         rearm = 500;
         requirements[] = {};
         textures[] = {
@@ -244,7 +245,7 @@ class HeavyVehicles {
         aps = 2;
         capValue = 4;
         cost = 5000;
-        killReward = 500;
+        killReward = 450;
         rearm = 500;
         requirements[] = {};
     }; // "Rhino MGS UP"
@@ -252,11 +253,11 @@ class HeavyVehicles {
     class B_MBT_01_cannon_F {
         aps = 3;
         capValue = 4;
-        cost = 5800;
+        cost = 6000;
         disallowMagazines[] = {
             "4Rnd_120mm_LG_cannon_missiles"
         };
-        killReward = 450;
+        killReward = 500;
         rearm = 600;
         requirements[] = {};
     }; // "M2A1 Slammer"
@@ -264,7 +265,7 @@ class HeavyVehicles {
     class B_MBT_01_TUSK_F {
         aps = 3;
         capValue = 4;
-        cost = 6500;
+        cost = 7000;
         disallowMagazines[] = {
             "4Rnd_120mm_LG_cannon_missiles"
         };
@@ -325,6 +326,71 @@ class HeavyVehicles {
     //         turret[] = { 0 };
     //     };
     // };
+
+    class B_Mortar_01_F {
+        cost = 4000;
+        demolishable = 1;
+        killReward = 125;
+        loadable[] = {0, -2.5, 0};
+        offset[] = {0, 3, 0};
+        rearm = 900;
+        requirements[] = {};
+    }; // "Mortar"
+
+    // class B_Mortar_01_TV_F {
+    //     ammoOverrides[] = {
+    //         {"M_127mm_Firefist_AT", {"M_Switchblade", "Switchblade (Loitering Munition)"}}
+    //     };
+    //     cost = 6000;
+    //     demolishable = 1;
+    //     description = "Switchblade Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
+    //     killReward = 125;
+    //     loadable[] = {0, -2.5, 0};
+    //     name = "Switchblade Launcher";
+    //     offset[] = {0, 3, 0};
+    //     rearm = 900;
+    //     requirements[] = {};
+    //     spawn = "B_Mortar_01_F";
+    //     variant = 1;
+
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles",
+    //             "2Rnd_127mm_Firefist_missiles"
+    //         };
+    //         addWeapons[] = {
+    //             "missiles_Firefist"
+    //         };
+    //         removeMagazines[] = {
+    //             "8Rnd_82mm_Mo_shells",
+    //             "8Rnd_82mm_Mo_Flare_white",
+    //             "8Rnd_82mm_Mo_Smoke_white",
+    //             "8Rnd_82mm_Mo_guided",
+    //             "8Rnd_82mm_Mo_LG"
+    //         };
+    //         removeWeapons[] = {
+    //             "mortar_82mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
+
+    class B_Ship_Gun_01_F {
+        cost = 10000;
+        demolishable = 1;
+        disallowMagazines[] = {
+            "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
+            "magazine_ShipCannon_120mm_mine_shells_x6",
+            "magazine_ShipCannon_120mm_AT_mine_shells_x6"
+        };
+        killReward = 500;
+        offset[] = {0, 9, 0};
+        requirements[] = {};
+        rearm = 2700;
+    }; // "MK45 Hammer"
 
     class B_MBT_01_arty_F {
         aps = 1;
@@ -398,4 +464,13 @@ class HeavyVehicles {
     //         turret[] = { 0 };
     //     };
     // };
+
+    class B_Ship_MRLS_01_F {
+        cost = 30000;
+        requirements[] = {};
+        offset[] = {0, 7, 0};
+        rearm = 2700;
+        killReward = 700;
+    };  // "Mk41 VLS"
+
 };

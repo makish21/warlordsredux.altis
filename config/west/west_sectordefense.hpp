@@ -1,11 +1,11 @@
 class SectorDefense {
-    class Land_Razorwire_F {
-        cost = 50;
-        demolishable = 1;
-        killReward = 30;
-        offset[] = {0, 5, 0};
-        requirements[] = {};
-    }; // "Razor Wire Fence"
+    // class Land_Razorwire_F {
+    //     cost = 50;
+    //     demolishable = 1;
+    //     killReward = 30;
+    //     offset[] = {0, 5, 0};
+    //     requirements[] = {};
+    // }; // "Razor Wire Fence"
 
     class Land_BagFence_Round_F {
         cost = 50;
@@ -23,13 +23,13 @@ class SectorDefense {
         requirements[] = {};
     }; // "Tank barrier"
 
-    class Land_GuardTower_01_F {
-        cost = 50;
-        demolishable = 1;
-        killReward = 30;
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    };  // "Guard Tower"
+    // class Land_GuardTower_01_F {
+    //     cost = 50;
+    //     demolishable = 1;
+    //     killReward = 30;
+    //     offset[] = {0, 3, 0};
+    //     requirements[] = {};
+    // };  // "Guard Tower"
 
     class Land_HBarrier_5_F {
         cost = 50;
@@ -55,6 +55,15 @@ class SectorDefense {
         offset[] = {0, 6, 0};
         requirements[] = {};
     }; // "Camouflage Vehicle Cover (Green)"
+
+    class Land_IRMaskingCover_01_F {
+        cost = 200;
+        demolishable = 1;
+        garbageCollect = 1;
+        killReward = 30;
+        offset[] = {0, 8, 0};
+        requirements[] = {};
+    }; // "IR Masking Tent (Large)"
 
     class B_HMG_01_F {
         cost = 150;
@@ -82,15 +91,6 @@ class SectorDefense {
             turret[] = { 0 };
         };
     }; // "Mk30 HMG .50"
-
-    class Land_IRMaskingCover_01_F {
-        cost = 200;
-        demolishable = 1;
-        garbageCollect = 1;
-        killReward = 30;
-        offset[] = {0, 8, 0};
-        requirements[] = {};
-    }; // "IR Masking Tent (Large)"
 
     class B_HMG_01_high_F {
         cost = 200;
@@ -169,35 +169,6 @@ class SectorDefense {
     //     };
     // };
 
-    class B_static_AT_F {
-        cost = 300;
-        demolishable = 1;
-        killReward = 100;
-        loadable[] = {0, -2.5, 0.2};
-        offset[] = {0, 3, 0};
-        rearm = 300;
-        requirements[] = {};
-
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "missiles_titan_static"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {
-                "missiles_titan_static"
-            };
-            turret[] = { 0 };
-        };
-    }; // "Static Titan Launcher (AT) [NATO]"
-
     class B_HMG_01_A_F {
         cost = 500;
         demolishable = 1;
@@ -236,6 +207,35 @@ class SectorDefense {
         rearm = 300;
         requirements[] = {};
     };
+
+    class B_static_AT_F {
+        cost = 300;
+        demolishable = 1;
+        killReward = 100;
+        loadable[] = {0, -2.5, 0.2};
+        offset[] = {0, 3, 0};
+        rearm = 300;
+        requirements[] = {};
+
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles"
+            };
+            addWeapons[] = {
+                "missiles_titan_static"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "missiles_titan_static"
+            };
+            turret[] = { 0 };
+        };
+    }; // "Static Titan Launcher (AT) [NATO]"
 
     // class B_static_AT_UP_F {
     //     cost = 700;
@@ -293,76 +293,4 @@ class SectorDefense {
     //     // This is not loadable. It will break initialization code to load this.
     // };
 
-    class B_Mortar_01_F {
-        cost = 4000;
-        demolishable = 1;
-        killReward = 125;
-        loadable[] = {0, -2.5, 0};
-        offset[] = {0, 3, 0};
-        rearm = 900;
-        requirements[] = {};
-    }; // "Mortar"
-
-    // class B_Mortar_01_TV_F {
-    //     ammoOverrides[] = {
-    //         {"M_127mm_Firefist_AT", {"M_Switchblade", "Switchblade (Loitering Munition)"}}
-    //     };
-    //     cost = 6000;
-    //     demolishable = 1;
-    //     description = "Switchblade Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
-    //     killReward = 125;
-    //     loadable[] = {0, -2.5, 0};
-    //     name = "Switchblade Launcher";
-    //     offset[] = {0, 3, 0};
-    //     rearm = 900;
-    //     requirements[] = {};
-    //     spawn = "B_Mortar_01_F";
-    //     variant = 1;
-
-    //     class Gunner: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles"
-    //         };
-    //         addWeapons[] = {
-    //             "missiles_Firefist"
-    //         };
-    //         removeMagazines[] = {
-    //             "8Rnd_82mm_Mo_shells",
-    //             "8Rnd_82mm_Mo_Flare_white",
-    //             "8Rnd_82mm_Mo_Smoke_white",
-    //             "8Rnd_82mm_Mo_guided",
-    //             "8Rnd_82mm_Mo_LG"
-    //         };
-    //         removeWeapons[] = {
-    //             "mortar_82mm"
-    //         };
-    //         turret[] = { 0 };
-    //     };
-    // };
-
-    class B_Ship_Gun_01_F {
-        cost = 10000;
-        demolishable = 1;
-        disallowMagazines[] = {
-            "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
-            "magazine_ShipCannon_120mm_mine_shells_x6",
-            "magazine_ShipCannon_120mm_AT_mine_shells_x6"
-        };
-        killReward = 600;
-        offset[] = {0, 9, 0};
-        requirements[] = {};
-        rearm = 2700;
-    }; // "MK45 Hammer"
-
-    // class B_Ship_MRLS_01_F {
-    //     cost = 30000;
-    //     requirements[] = {};
-    //     offset[] = {0, 7, 0};
-    //     rearm = 2700;
-    //     killReward = 700;
-    // }; // "Mk41 VLS"
 };

@@ -22,13 +22,13 @@ class RotaryWing {
     };  // "CH-49 Mohawk"
 
     class I_Heli_light_03_F {
-        killReward = 300;
+        killReward = 200;
     };  // "WY-55 Hellcat"
 
     class I_Heli_light_03_dynamicLoadout_F {
         aircraftSpawn = 1;
         cost = 6000;
-        killReward = 300;
+        killReward = 200;
         rearm = 300;
         requirements[] = {"H"};
     };  // "WY-55 Hellcat"

@@ -1,8 +1,9 @@
 class FixedWing {
+
     class B_Plane_Civil_01_F {
-        cost = 800;
+        cost = 1000;
         // description = "Caesar BTT is a light unarmed aircraft.";
-        killReward = 200;
+        killReward = 100;
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
@@ -133,7 +134,7 @@ class FixedWing {
     class B_T_VTOL_01_armed_F {
         cost = 8000;
         hasHMD = 1;
-        killReward = 350;
+        killReward = 450;
         rearm = 500;
         requirements[] = {"A"};
     }; // "V-44 X Blackfish (Armed)"

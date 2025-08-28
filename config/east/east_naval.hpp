@@ -7,19 +7,25 @@ class Naval {
 
     class O_Boat_Transport_01_F {
         cost = 100;
-        killReward = 20;
+        killReward = 80;
         requirements[] = {"W"};
     };	// "Assault Boat"
 
+	class I_C_Boat_Transport_02_F {
+        cost = 200;	
+        killReward = 80;
+        requirements[]={"W"};
+    };	// "RHIB"
+
     class O_SDV_01_F {
         cost = 250;
-        killReward = 20;
+        killReward = 80;
         requirements[] = {"W"};
     };	// "SDV"
 
     class O_Boat_Armed_01_hmg_F {
         cost = 500;
-        killReward = 80;
+        killReward = 200;
         rearm = 400;
         requirements[] = {"W"};
     };	// "Speedboat HMG"

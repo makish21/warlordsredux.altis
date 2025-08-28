@@ -1,4 +1,5 @@
 class RotaryWing {
+
     class B_Heli_Light_01_F {
         cost = 300;
         killReward = 100;
@@ -139,7 +140,7 @@ class RotaryWing {
 
     class B_Heli_Transport_01_pylons_F  {
         cost = 8000;
-        killReward = 450;
+        killReward = 400;
         offset[] = {0, 11, 0};
         rearm = 300;
         requirements[] = {"H"};
@@ -148,7 +149,7 @@ class RotaryWing {
     class B_Heli_Attack_01_dynamicLoadout_F {
         cost = 13000;
         hasHMD = 1;
-        killReward = 550;
+        killReward = 600;
         offset[] = {0, 10, 0};
         rearm = 700;
         requirements[] = {"H"};
@@ -170,9 +171,9 @@ class RotaryWing {
         // allowPylonMagazines[] = {
         //     "PylonMissile_Missile_HARM_x1"
         // };
-        cost = 15000;
+        cost = 16000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 700;
         offset[] = {0, 10, 0};
         rearm = 700;
         requirements[] = {"H"};
@@ -223,4 +224,5 @@ class RotaryWing {
     //         turret[] = { 0 };
     //     };
     // };
+
 };

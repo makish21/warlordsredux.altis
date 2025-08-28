@@ -1,4 +1,5 @@
 class LightVehicles {
+
     class B_Quadbike_01_F {
         capValue = 1;
         cost = 20;
@@ -6,6 +7,13 @@ class LightVehicles {
         offset[] = {0, 3, 0};
         requirements[] = {};
     }; // "Quad Bike"
+
+    class B_MRAP_01_F {
+        capValue = 1;
+        cost = 300;
+        killReward = 70;
+        requirements[] = {};
+    }; // "Hunter"
 
     class B_G_Offroad_01_armed_F {
         capValue = 1;
@@ -33,12 +41,28 @@ class LightVehicles {
         };
     }; // "Offroad (HMG)"
 
-    class B_Truck_01_transport_F {
+    class B_G_Offroad_01_AT_F {
         capValue = 1;
-        cost = 200;
-        killReward = 80;
+        cost = 500;
+        killReward = 180;
+        offset[] = {0, 5, 0};
+        rearm = 180;
         requirements[] = {};
-    }; // "HEMTT Transport"
+
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "12Rnd_SPG9_HEAT"
+            };
+            addWeapons[] = {
+                "launcher_SPG9"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "launcher_SPG9"
+            };
+            turret[] = { 0 };
+        };
+    }; // "Offroad (AT)"
 
     class B_LSV_01_armed_F {
         capValue = 1;
@@ -65,43 +89,6 @@ class LightVehicles {
         };
     }; // "Prowler (HMG)"
 
-    class B_MRAP_01_F {
-        capValue = 1;
-        cost = 300;
-        killReward = 70;
-        requirements[] = {};
-    }; // "Hunter"
-
-    class B_Truck_01_flatbed_F {
-        capValue = 1;
-        cost = 500;
-        killReward = 80;
-        requirements[] = {};
-    }; // "HEMTT Flatbed"
-
-    class B_G_Offroad_01_AT_F {
-        capValue = 1;
-        cost = 500;
-        killReward = 180;
-        offset[] = {0, 5, 0};
-        rearm = 180;
-        requirements[] = {};
-
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "12Rnd_SPG9_HEAT"
-            };
-            addWeapons[] = {
-                "launcher_SPG9"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {
-                "launcher_SPG9"
-            };
-            turret[] = { 0 };
-        };
-    }; // "Offroad (AT)"
-
     class B_LSV_01_AT_F {
         capValue = 1;
         cost = 750;
@@ -127,36 +114,6 @@ class LightVehicles {
             turret[] = { 0 };
         };
     }; // "Prowler (AT)"
-
-    class B_MRAP_01_hmg_F {
-        aps = 1;
-        capValue = 2;
-        cost = 900;
-        killReward = 250;
-        rearm = 300;
-        requirements[] = {};
-    }; // "Hunter HMG"
-
-    class B_Truck_01_ammo_F {
-        capValue = 1;
-        cost = 1000;
-        killReward = 80;
-        requirements[] = {};
-    }; // "HEMTT Ammo"
-
-    class B_Truck_01_fuel_F {
-        capValue = 1;
-        cost = 1000;
-        killReward = 80;
-        requirements[] = {};
-    }; // "HEMTT Fuel"
-
-    class B_Truck_01_Repair_F {
-        capValue = 1;
-        cost = 1000;
-        killReward = 80;
-        requirements[] = {};
-    }; // "HEMTT Repair"
 
     // class B_LSV_01_AT_UP_F {
     //     capValue = 1;
@@ -192,10 +149,19 @@ class LightVehicles {
     //     };
     // };
 
+    class B_MRAP_01_hmg_F {
+        aps = 1;
+        capValue = 2;
+        cost = 900;
+        killReward = 250;
+        rearm = 300;
+        requirements[] = {};
+    }; // "Hunter HMG"
+
     class B_MRAP_01_gmg_F {
         aps = 1;
         capValue = 2;
-        cost = 1250;
+        cost = 1200;
         killReward = 250;
         rearm = 300;
         requirements[] = {};
@@ -236,6 +202,41 @@ class LightVehicles {
     //         turret[] = { 0 };
     //     };
     // };
+
+    class B_Truck_01_transport_F {
+        capValue = 1;
+        cost = 200;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Transport"
+
+    class B_Truck_01_flatbed_F {
+        capValue = 1;
+        cost = 500;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Flatbed"
+
+    class B_Truck_01_ammo_F {
+        capValue = 1;
+        cost = 1000;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Ammo"
+
+    class B_Truck_01_Repair_F {
+        capValue = 1;
+        cost = 1000;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Repair"
+
+    class B_Truck_01_fuel_F {
+        capValue = 1;
+        cost = 1000;
+        killReward = 80;
+        requirements[] = {};
+    }; // "HEMTT Fuel"
 
     class B_T_Truck_03_device_F {
         aps = 4;

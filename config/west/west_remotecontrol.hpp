@@ -1,4 +1,5 @@
 class RemoteControl {
+
     // class RuggedTerminal_01_communications_F {
     //     cost = 50;
     //     demolishable = 1;
@@ -24,14 +25,6 @@ class RemoteControl {
         requirements[] = {};
     }; // "UGV Stomper"
 
-    class B_UAV_01_F {
-        cost = 500;
-        hasHMD = 1;
-        killReward = 100;
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    }; // AR-2
-
     class B_UGV_01_rcws_F {
         cost = 500;
         killReward = 100;
@@ -39,6 +32,14 @@ class RemoteControl {
         rearm = 300;
         requirements[] = {};
     }; // "UGAS"
+
+    class B_UAV_01_F {
+        cost = 500;
+        hasHMD = 1;
+        killReward = 100;
+        offset[] = {0, 3, 0};
+        requirements[] = {};
+    }; // AR-2
 
     class B_UAV_06_F {
         cost = 1000;
@@ -111,7 +112,7 @@ class RemoteControl {
     //         };
     //     };
     // };
-
+    
     // class B_UAV_02_recon_F {
     //     cost = 2000;
     //     description = "Greyhawk (Recon) is an unarmed variant of the Greyhawk with a powerful scanner.";
@@ -137,17 +138,17 @@ class RemoteControl {
     // };
 
     class B_UAV_02_dynamicLoadout_F {
-        cost = 6000;
+        cost = 8000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 500;
         rearm = 300;
         requirements[] = {"A"};
     }; // "Greyhawk"
 
     class B_T_UAV_03_dynamicLoadout_F {
-        cost = 8000;
+        cost = 11000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 550;
         rearm = 600;
         requirements[] = {"H"};
 
@@ -165,8 +166,8 @@ class RemoteControl {
     }; // "Falcon"
 
     class B_UAV_05_F {
-        cost = 15000;
-        killReward = 650;
+        cost = 20000;
+        killReward = 900;
         rearm = 500;
         requirements[] = {"A"};
 
@@ -182,12 +183,5 @@ class RemoteControl {
             addWeapons[] = {};
         };
     }; // "UCAV Sentinel"
-    
-    class B_Ship_MRLS_01_F {
-        cost = 30000;
-        requirements[] = {};
-        offset[] = {0, 7, 0};
-        rearm = 2700;
-        killReward = 1800;
-    };  // "Mk41 VLS"
+
 };

@@ -1,25 +1,19 @@
 class RemoteControl {
-    class I_UGV_02_Demining_F {
-        cost = 100;
-        killReward = 100;
-        offset[] = {0, 3, 0};
-        rearm = 200;
-        requirements[] = {};
-    };  // "UGAS demining"
 
-    class I_UGV_01_F {
-        cost = 150;
-        killReward = 50;
-        offset[] = {0, 5, 0};
-        requirements[] = {};
-    };  // "UGV Stomper"
+    // class I_UGV_02_Demining_F {
+    //     cost = 100;
+    //     killReward = 100;
+    //     offset[] = {0, 3, 0};
+    //     rearm = 200;
+    //     requirements[] = {};
+    // };  // "UGAS demining"
 
-    class I_UAV_01_F {
-        cost = 500;
-        killReward = 100;
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    };  // "AR-2"
+    // class I_UGV_01_F {
+    //     cost = 150;
+    //     killReward = 50;
+    //     offset[] = {0, 5, 0};
+    //     requirements[] = {};
+    // };  // "UGV Stomper"
 
     class I_UGV_01_rcws_F {
         cost = 500;
@@ -28,6 +22,13 @@ class RemoteControl {
         rearm = 300;
         requirements[] = {};
     };  // "UGAV rcws"
+
+    class I_UAV_01_F {
+        cost = 500;
+        killReward = 100;
+        offset[] = {0, 3, 0};
+        requirements[] = {};
+    };  // "AR-2"
 
     class I_UAV_06_F {
         cost = 1000;

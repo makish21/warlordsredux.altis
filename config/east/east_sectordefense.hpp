@@ -1,11 +1,11 @@
 class SectorDefense {
-    class Land_Razorwire_F {
-        cost = 50;
-        demolishable = 1;
-        killReward = 30;
-        offset[] = {0, 5, 0};
-        requirements[] = {};
-    };  // "Razor Wire Fence"
+    // class Land_Razorwire_F {
+    //     cost = 50;
+    //     demolishable = 1;
+    //     killReward = 30;
+    //     offset[] = {0, 5, 0};
+    //     requirements[] = {};
+    // };  // "Razor Wire Fence"
 
     class Land_BagFence_Round_F {
         cost = 50;
@@ -23,13 +23,13 @@ class SectorDefense {
         requirements[] = {};
     };  // "Tank barrier"
 
-    class Land_GuardTower_01_F {
-        cost = 50;
-        demolishable = 1;
-        killReward = 30;
-        offset[] = {0, 3, 0};
-        requirements[] = {};
-    };  // "Guard Tower"
+    // class Land_GuardTower_01_F {
+    //     cost = 50;
+    //     demolishable = 1;
+    //     killReward = 30;
+    //     offset[] = {0, 3, 0};
+    //     requirements[] = {};
+    // };  // "Guard Tower"
 
     class Land_HBarrier_5_F {
         cost = 50;
@@ -55,6 +55,15 @@ class SectorDefense {
         offset[] = {0, 6, 0};
         requirements[] = {};
     };  // "Camouflage Vehicle Cover (Hex)"
+
+    class Land_IRMaskingCover_01_F {
+        cost = 200;
+        demolishable = 1;
+        garbageCollect = 1;
+        killReward = 30;
+        offset[] = {0, 8, 0};
+        requirements[] = {};
+    };  // "IR Masking Tent (Large)"
 
     class O_HMG_01_F {
         cost = 150;
@@ -82,15 +91,6 @@ class SectorDefense {
             turret[] = { 0 };
         };
     };  // "Mk30 HMG .50"
-
-    class Land_IRMaskingCover_01_F {
-        cost = 200;
-        demolishable = 1;
-        garbageCollect = 1;
-        killReward = 30;
-        offset[] = {0, 8, 0};
-        requirements[] = {};
-    };  // "IR Masking Tent (Large)"
 
     class O_HMG_01_high_F {
         cost = 200;
@@ -139,35 +139,6 @@ class SectorDefense {
         requirements[] = {};
     };  // "Mk32 GMG 20 mm (Raised)"
 
-    class O_static_AT_F {
-        cost = 300;
-        demolishable = 1;
-        killReward = 100;
-        loadable[] = {0, -2.5, 0.2};
-        offset[] = {0, 3, 0};
-        rearm = 300;
-        requirements[] = {};
-
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles",
-                "1Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "missiles_titan_static"
-            };
-            removeMagazines[] = {};
-            removeWeapons[] = {
-                "missiles_titan_static"
-            };
-            turret[] = { 0 };
-        };
-    };  // "Static Titan Launcher (AT) [CSAT]"
-
     class O_HMG_01_A_F {
         cost = 500;
         demolishable = 1;
@@ -206,6 +177,35 @@ class SectorDefense {
         rearm = 300;
         requirements[] = {};
     };
+
+    class O_static_AT_F {
+        cost = 300;
+        demolishable = 1;
+        killReward = 100;
+        loadable[] = {0, -2.5, 0.2};
+        offset[] = {0, 3, 0};
+        rearm = 300;
+        requirements[] = {};
+
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles",
+                "1Rnd_GAT_missiles"
+            };
+            addWeapons[] = {
+                "missiles_titan_static"
+            };
+            removeMagazines[] = {};
+            removeWeapons[] = {
+                "missiles_titan_static"
+            };
+            turret[] = { 0 };
+        };
+    };  // "Static Titan Launcher (AT) [CSAT]"
 
     // class O_static_AT_UP_F {
     //     cost = 700;
@@ -262,54 +262,4 @@ class SectorDefense {
     //     requirements[] = {};
     // };
 
-    class O_Mortar_01_F {
-        cost = 4000;
-        demolishable = 1;
-        killReward = 125;
-        loadable[] = {0, -2.5, 0};
-        offset[] = {0, 3, 0};
-        rearm = 900;
-        requirements[] = {};
-    };  // "Mortar"
-
-    // class O_Mortar_01_TV_F {
-    //     ammoOverrides[] = {
-    //         {"M_127mm_Firefist_AT", {"M_Lancet", "Lancet (Loitering Munition)"}}
-    //     };
-    //     cost = 6000;
-    //     demolishable = 1;
-    //     description = "Lancet Launcher is a remote controlled loitering munition launcher. It can be used to effectively engage enemy ground vehicles.";
-    //     killReward = 125;
-    //     loadable[] = {0, -2.5, 0};
-    //     name = "Lancet Launcher";
-    //     offset[] = {0, 3, 0};
-    //     rearm = 900;
-    //     requirements[] = {};
-    //     spawn = "O_Mortar_01_F";
-    //     variant = 1;
-
-    //     class Gunner: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles",
-    //             "2Rnd_127mm_Firefist_missiles"
-    //         };
-    //         addWeapons[] = {
-    //             "missiles_Firefist"
-    //         };
-    //         removeMagazines[] = {
-    //             "8Rnd_82mm_Mo_shells",
-    //             "8Rnd_82mm_Mo_Flare_white",
-    //             "8Rnd_82mm_Mo_Smoke_white",
-    //             "8Rnd_82mm_Mo_guided",
-    //             "8Rnd_82mm_Mo_LG"
-    //         };
-    //         removeWeapons[] = {
-    //             "mortar_82mm"
-    //         };
-    //         turret[] = { 0 };
-    //     };
-    // };
 };

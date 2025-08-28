@@ -1,8 +1,9 @@
 class FixedWing {
+
     class O_Plane_Civil_01_F {
-        cost = 800;
+        cost = 1000;
         // description = "Caesar BTT is a light unarmed aircraft.";
-        killReward = 200;
+        killReward = 100;
         name = "Caesar BTT";
         requirements[] = {"A"};
         spawn = "C_Plane_Civil_01_F";
@@ -147,14 +148,14 @@ class FixedWing {
     // };
 
     class O_T_VTOL_02_infantry_dynamicLoadout_F {
-        allowPylonMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles"/*,
-            "PylonMissile_Missile_KH58_INT_x1"*/
-        };
+        // allowPylonMagazines[] = {
+        //     "PylonRack_12Rnd_PG_missiles"/*,
+        //     "PylonMissile_Missile_KH58_INT_x1"*/
+        // };
 
         cost = 14000;
         hasHMD = 1;
-        killReward = 600;
+        killReward = 700;
         rearm = 700;
         requirements[] = {"A"};
 

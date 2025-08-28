@@ -1,43 +1,44 @@
 class Gear {
-    class Box_East_Ammo_F {
-        cost = 50;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Basic Ammo [CSAT]"
 
-    class Box_East_Grenades_F {
-        cost = 50;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Grenades [CSAT]"
+    // class Box_East_Ammo_F {
+    //     cost = 50;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Basic Ammo [CSAT]"
 
-    class Box_East_Wps_F {
-        cost = 100;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Basic Weapons [CSAT]"
+    // class Box_East_Grenades_F {
+    //     cost = 50;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Grenades [CSAT]"
 
-    class Box_CSAT_Equip_F {
-        cost = 100;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Equipment [NATO]"
+    // class Box_East_Wps_F {
+    //     cost = 100;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Basic Weapons [CSAT]"
 
-    class Box_CSAT_Uniforms_F {
-        cost = 100;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Uniforms [NATO]"
+    // class Box_CSAT_Equip_F {
+    //     cost = 100;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Equipment [CSAT]"
+
+    // class Box_CSAT_Uniforms_F {
+    //     cost = 100;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Uniforms [CSAT]"
 
     class Box_East_AmmoOrd_F {
         cost = 150;
@@ -63,6 +64,14 @@ class Gear {
         requirements[] = {};
     }; // "Special Weapons [CSAT]"
 
+    // class O_supplyCrate_F {
+    //     cost = 500;
+    //     killReward = 40;
+    //     loadable[] = { 0, 0, 0 };
+    //     offset[] = { 0, 3, 0};
+    //     requirements[] = {};
+    // }; // "Supply Box [CSAT]"
+
     class Box_East_AmmoVeh_F {
         cost = 250;
         killReward = 70;
@@ -70,14 +79,6 @@ class Gear {
         offset[] = { 0, 3, 0};
         requirements[] = {};
     }; // "Vehicle Ammo [CSAT]"
-
-    class O_supplyCrate_F {
-        cost = 300;
-        killReward = 40;
-        loadable[] = { 0, 0, 0 };
-        offset[] = { 0, 3, 0};
-        requirements[] = {};
-    }; // "Supply Box [CSAT]"
 
     class Land_Pod_Heli_Transport_04_fuel_F {
         cost = 300;

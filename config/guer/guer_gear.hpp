@@ -1,4 +1,5 @@
 class Gear {
+
     class Box_IND_Ammo_F {
         cost = 50;
         killReward = 40;

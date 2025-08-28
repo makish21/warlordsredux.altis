@@ -1,4 +1,5 @@
 class AirDefense {
+
     class O_static_AA_F {
         cost = 300;
         killReward = 100;
@@ -56,7 +57,7 @@ class AirDefense {
         capValue = 4;
         cost = 5000;
         hasHMD = 1;
-        killReward = 350;
+        killReward = 450;
         rearm = 300;
         requirements[] = {};
 

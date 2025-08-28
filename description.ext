@@ -47,19 +47,19 @@ BIS_WL_sectorResetTimeout = 300;
 BIS_WL_sectorVotingDuration = 30;
 
 BIS_WL_scanCost = 750;
-BIS_WL_fastTravelCostContested = 200;
-WL_airAssaultCost = 100;
+BIS_WL_fastTravelCostContested = 150;
+WL_airAssaultCost = 300;
 WL_vehicleParadropCost = 1000;
-BIS_WL_fastTravelCostSquadLeader = 10;
-BIS_WL_orderFTVehicleCost = 200;
+BIS_WL_fastTravelCostSquadLeader = 0;
+BIS_WL_orderFTVehicleCost = 500;
 BIS_WL_fundsTransferCost = 2000;
 BIS_WL_targetResetCost = 500;
 BIS_WL_maxCP = 50000;
-BIS_WL_arsenalCost = 1000;
+BIS_WL_arsenalCost = 300;
 BIS_WL_assetLimit = 10;
 BIS_WL_scanCooldown = 300;
 BIS_WL_lastLoadoutCost = 100;
-BIS_WL_savedLoadoutCost = 350;
+BIS_WL_savedLoadoutCost = 300;
 BIS_WL_baseValue = 50;
 BIS_WL_autonomous_limit = 2;
 BIS_WL_minAPSDist = 1000; //actual range = √x

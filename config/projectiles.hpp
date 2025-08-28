@@ -23,7 +23,7 @@ class WLProjectilesConfig {
         };
         aps = 1;
         camera = 1;
-        consumption = 4;
+        consumption = 6;
         dazzleable = 0;
     };
 
@@ -119,8 +119,6 @@ class WLProjectilesConfig {
             "M_Titan_AT_long",                  // Titan AT (Vehicle)
 
             "M_PG_AT",                          // DAGR
-            "M_Scalpel_AT",                     // Scalpel
-            "M_Scalpel_AT_hidden",              // Scalpel
 
             "M_NLAW_AT_F",                      // NLAW
             "M_Titan_AP",                       // Titan AP
@@ -150,6 +148,8 @@ class WLProjectilesConfig {
         ammo[] = {
             "M_127mm_Firefist_AT",              // Firefist AT
 
+            "M_Scalpel_AT",                     // Scalpel
+            "M_Scalpel_AT_hidden",              // Scalpel
             "M_Jian_AT",                        // Jian - Max loadout: 4
             "Missile_AGM_02_F"                  // Macer I && II (same mag) - Max loadout: 20
         };

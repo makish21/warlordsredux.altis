@@ -103,7 +103,7 @@ class FixedWing {
     class I_Plane_Fighter_04_F {
         aircraftSpawn = 1;
         cost = 23000;
-        killReward = 500;
+        killReward = 600;
         rearm = 900;
         requirements[] = {"A"};
     };  // "A-149 Gryphon"

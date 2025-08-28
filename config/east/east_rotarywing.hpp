@@ -1,4 +1,5 @@
 class RotaryWing {
+
     class O_Heli_Transport_04_covered_F {
         cost = 400;
         killReward = 100;
@@ -13,17 +14,17 @@ class RotaryWing {
         requirements[] = {"H"};
     }; // "Mi-290 Taru"
 
-    class O_Heli_Transport_04_medevac_F {
-        cost = 500;
-        killReward = 100;
-        offset[] = {0, 10, 0};
-        requirements[] = {"H"};
-    }; // "Mi-290 Taru (Medical)"
+    // class O_Heli_Transport_04_medevac_F {
+    //     cost = 500;
+    //     killReward = 100;
+    //     offset[] = {0, 10, 0};
+    //     requirements[] = {"H"};
+    // }; // "Mi-290 Taru (Medical)"
 
     class O_Heli_Light_02_unarmed_F {
         cost = 500;
         hasHMD = 1;
-        killReward = 125;
+        killReward = 100;
         offset[] = {0, 10, 0};
         requirements[] = {"H"};
     }; // "PO-30 Orca (Unarmed)"
@@ -83,10 +84,10 @@ class RotaryWing {
     }; // "PO-30 Orca"
 
     class O_Heli_Attack_02_dynamicLoadout_F {
-        allowPylonMagazines[] = {
-            "PylonRack_12Rnd_PG_missiles"/*,
-            "PylonMissile_Missile_KH58_INT_x1"*/
-        };
+        // allowPylonMagazines[] = {
+        //     "PylonRack_12Rnd_PG_missiles"/*,
+        //     "PylonMissile_Missile_KH58_INT_x1"*/
+        // };
         cost = 10000;
         hasHMD = 1;
         killReward = 550;
@@ -149,4 +150,5 @@ class RotaryWing {
     //         turret[] = { 0 };
     //     };
     // };
+
 };

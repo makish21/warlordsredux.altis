@@ -54,7 +54,7 @@ class LightVehicles {
     class I_MRAP_03_F {
         capValue = 1;
         cost = 300;
-        killReward = 70;
+        killReward = 200;
         requirements[] = {};
     }; // "Strider"
 
@@ -87,7 +87,7 @@ class LightVehicles {
         aps = 1;
         capValue = 3;
         cost = 900;
-        killReward = 250;
+        killReward = 200;
         rearm = 300;
         requirements[] = {};
         vehicleSpawn = 1;
@@ -97,7 +97,7 @@ class LightVehicles {
         aps = 1;
         capValue = 3;
         cost = 1200;
-        killReward = 250;
+        killReward = 200;
         rearm = 300;
         requirements[] = {};
         vehicleSpawn = 1;
