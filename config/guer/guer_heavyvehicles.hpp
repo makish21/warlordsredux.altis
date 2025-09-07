@@ -71,22 +71,22 @@ class HeavyVehicles {
         killReward = 300;
         vehicleSpawn = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "missiles_titan"
-            };
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles"
-            };
-            removeWeapons[] = {
-                "missiles_titan"
-            };
-            turret[] = { 0 };
-        };
+        // class Gunner: WLTurretDefaults {
+        //     addMagazines[] = {
+        //         "5Rnd_GAT_missiles",
+        //         "5Rnd_GAT_missiles"
+        //     };
+        //     addWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     removeMagazines[] = {
+        //         "2Rnd_GAT_missiles"
+        //     };
+        //     removeWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     turret[] = { 0 };
+        // };
     };  // "AFV-4 Gorgon"
 
     class I_APC_tracked_03_cannon_F {

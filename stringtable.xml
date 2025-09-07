@@ -1657,6 +1657,11 @@
             <Original>Parachute Auto Deploy:</Original>
             <English>Parachute Auto Deploy:</English>
             <Russian>Автоматическое раскрытие парашюта:</Russian>
+        </Key> 
+        <Key ID="STR_A3_WL_settings_general_map_refresh_rate">
+            <Original>Map Refresh Rate (Hz):</Original>
+            <English>Map Refresh Rate (Hz):</English>
+            <Russian>Частота обновления карты (Гц):</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_button_close">
             <Original>Close</Original>

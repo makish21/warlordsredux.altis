@@ -149,22 +149,22 @@ class HeavyVehicles {
             "\A3\armor_f_gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_alpha_co.paa"
         };
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "missiles_titan"
-            };
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles"
-            };
-            removeWeapons[] = {
-                "missiles_titan"
-            };
-            turret[] = { 0 };
-        };
+        // class Gunner: WLTurretDefaults {
+        //     addMagazines[] = {
+        //         "5Rnd_GAT_missiles",
+        //         "5Rnd_GAT_missiles"
+        //     };
+        //     addWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     removeMagazines[] = {
+        //         "2Rnd_GAT_missiles"
+        //     };
+        //     removeWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     turret[] = { 0 };
+        // };
     }; // "AFV-4 Gorgon"
 
     // class B_APC_Wheeled_01_cannon_up_F {
@@ -381,11 +381,11 @@ class HeavyVehicles {
     class B_Ship_Gun_01_F {
         cost = 10000;
         demolishable = 1;
-        disallowMagazines[] = {
-            "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
-            "magazine_ShipCannon_120mm_mine_shells_x6",
-            "magazine_ShipCannon_120mm_AT_mine_shells_x6"
-        };
+        // disallowMagazines[] = {
+        //     "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
+        //     "magazine_ShipCannon_120mm_mine_shells_x6",
+        //     "magazine_ShipCannon_120mm_AT_mine_shells_x6"
+        // };
         killReward = 500;
         offset[] = {0, 9, 0};
         requirements[] = {};

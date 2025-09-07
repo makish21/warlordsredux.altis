@@ -122,22 +122,22 @@ class HeavyVehicles {
         rearm = 500;
         requirements[] = {};
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "5Rnd_GAT_missiles",
-                "5Rnd_GAT_missiles"
-            };
-            addWeapons[] = {
-                "missiles_titan"
-            };
-            removeMagazines[] = {
-                "2Rnd_GAT_missiles_O"
-            };
-            removeWeapons[] = {
-                "missiles_titan"
-            };
-            turret[] = { 0 };
-        };
+        // class Gunner: WLTurretDefaults {
+        //     addMagazines[] = {
+        //         "5Rnd_GAT_missiles",
+        //         "5Rnd_GAT_missiles"
+        //     };
+        //     addWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     removeMagazines[] = {
+        //         "2Rnd_GAT_missiles_O"
+        //     };
+        //     removeWeapons[] = {
+        //         "missiles_titan"
+        //     };
+        //     turret[] = { 0 };
+        // };
     }; // "BTR-K Kamysh"
 
     // class O_APC_Tracked_02_heavy_F {
