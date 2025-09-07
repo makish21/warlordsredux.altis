@@ -171,7 +171,7 @@ class RotaryWing {
         // allowPylonMagazines[] = {
         //     "PylonMissile_Missile_HARM_x1"
         // };
-        cost = 16000;
+        cost = 15000;
         hasHMD = 1;
         killReward = 700;
         offset[] = {0, 10, 0};

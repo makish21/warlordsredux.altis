@@ -379,7 +379,7 @@ class HeavyVehicles {
     // };
 
     class B_Ship_Gun_01_F {
-        cost = 10000;
+        cost = 15000;
         demolishable = 1;
         // disallowMagazines[] = {
         //     "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
