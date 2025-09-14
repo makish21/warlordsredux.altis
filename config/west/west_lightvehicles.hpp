@@ -243,7 +243,7 @@ class LightVehicles {
         capValue = 1;
         cost = 1500;
         killReward = 200;
-        name = "Tempest (Device)";
+        name = $str_a3_cfgvehicles_o_truck_03_device_f0;
         requirements[] = {};
         spawn = "O_T_Truck_03_device_ghex_F";
         textures[] = {

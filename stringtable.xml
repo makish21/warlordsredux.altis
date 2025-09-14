@@ -2441,6 +2441,29 @@
             <English>Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.</English>
             <Russian>Зенитно-ракетный комплекс средней дальности стационарного типа. Эффективная дальность: ~10 км.</Russian>
         </Key>
+
+        <Key ID="STR_WLAC_hint">
+            <Original>You have been flagged for cheating and your points have been reverted</Original>
+            <English>You have been flagged for cheating and your points have been reverted</English>
+            <Russian>Невозможное количество командных очков было получено за короткое время. Вы были отмечены как мошенник, а полученные очки были изъяты.</Russian>
+        </Key>
+
+        <Key ID="STR_teamkill_punishment">
+            <Original>You have been punished for killing friendly %1 [-%2]</Original>
+            <English>You have been punished for killing friendly %1 [-%2]</English>
+            <Russian>Вы были наказаны за уничтожение союзного %1 [-%2]</Russian>
+        </Key>
+        <Key ID="STR_teamkill_compensation">
+            <Original>You have been compensated for teamkill [+%1]</Original>
+            <English>You have been compensated for teamkill [+%1]</English>
+            <Russian>Вы получили компенсацию [+%1]</Russian>
+        </Key>
+
+        <Key ID="STR_WL2_tip_limit_dazzlers">
+            <Original>No more than %1 device per player available</Original>
+            <English>No more than %1 device per player available</English>
+            <Russian>Доступно не более %1 устройства на игрока</Russian>
+        </Key>
     </Container>
 
     <Container name="MRTM_welcomeScreen">
