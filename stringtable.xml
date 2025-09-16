@@ -2464,6 +2464,29 @@
             <English>No more than %1 device per player available</English>
             <Russian>Доступно не более %1 устройства на игрока</Russian>
         </Key>
+
+        <Key ID="STR_WL2_claim_vehicle_action">
+            <Original>Claim Vehicle</Original>
+            <English>Claim Vehicle</English>
+            <Russian>Захватить транспорт</Russian>
+        </Key>
+        <Key ID="STR_WL2_vehicle_claimed">
+            <Original>%1 has been claimed</Original>
+            <English>%1 has been claimed</English>
+            <Russian>%1 захвачен</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_map_click_for_options">
+            <Original>Click for options:</Original>
+            <English>Click for options:</English>
+            <Russian>Нажмите для вариантов:</Russian>
+        </Key>
+
+        <Key ID="STR_A3_WL2_open_parachute_action">
+            <Original>Open Parachute</Original>
+            <English>Open Parachute</English>
+            <Russian>Раскрыть парашют</Russian>
+        </Key>
     </Container>
 
     <Container name="MRTM_welcomeScreen">
