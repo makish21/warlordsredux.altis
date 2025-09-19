@@ -1962,22 +1962,6 @@
             <Russian>Развёрнутая палатка</Russian>
         </Key>
 
-        <Key ID="STR_A3_WL_chat_player_killed">
-            <Original>%1 was killed</Original>
-            <English>%1 was killed</English>
-            <Russian>%1 убит</Russian>
-        </Key>
-        <Key ID="STR_A3_WL_chat_player_killed_by">
-            <Original>%1 was killed by %2 %3</Original>
-            <English>%1 was killed by %2 %3</English>
-            <Russian>%1 убит %2 %3</Russian>
-        </Key>
-        <Key ID="STR_A3_WL_chat_player_killed_friendly_fire">
-            <Original>(Friendly fire)</Original>
-            <English>(Friendly fire)</English>
-            <Russian>(Огонь по своим)</Russian>
-        </Key>
-
         <Key ID="STR_A3_WL_chat_teamkiller_banned">
             <Original>%1 has been temporarily kicked/blocked from the game for teamkilling</Original>
             <English>%1 has been temporarily kicked/blocked from the game for teamkilling</English>

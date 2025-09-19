@@ -21,9 +21,8 @@ class WLProjectilesConfig {
         ammo[] = {
             "ammo_Bomb_SDB"                     // SDB
         };
-        aps = 1;
+        aps = 3;
         camera = 1;
-        consumption = 6;
         dazzleable = 0;
     };
 
