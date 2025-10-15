@@ -1,6 +1,7 @@
 #include "src\core\warlords_constants.inc"
 #include "src\ui\defines.hpp"
 #include "src\ui\controls.hpp"
+#include "src\scripts\MRTM\settings.ext"
 #include "src\scripts\WLM\ui\WLM_pylons.hpp"
 #include "src\scripts\SQD\squadMenu.hpp"
 

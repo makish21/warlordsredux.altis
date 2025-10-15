@@ -1553,6 +1553,11 @@
             <English>While operating a UAV/UGV:</English>
             <Russian>Управляя дронами:</Russian>
         </Key>
+        <Key ID="STR_A3_WL_settings_view_distance_cqb">
+            <Original>CQB mode (%1 button):</Original>
+            <English>CQB mode (%1 button):</English>
+            <Russian>Ближний бой (клавиша %1):</Russian>
+        </Key>
         <Key ID="STR_A3_WL_settings_view_distance_sync_objects">
             <Original>Sync object rendering with view distance:</Original>
             <English>Sync object rendering with view distance:</English>
@@ -1608,15 +1613,20 @@
             <English>Disable 3rd person view (x2 %1):</English>
             <Russian>Отключить 3-е лицо (x2 %1):</Russian>
         </Key>
+        <Key ID="STR_A3_WL_settings_general_aps_volume">
+            <Original>APS trigger volume:</Original>
+            <English>APS trigger volume:</English>
+            <Russian>Громкость срабатывания КАЗ:</Russian>
+        </Key>
         <Key ID="STR_A3_WL_settings_general_voice_informer">
-            <Original>Mute the warlords voice informer:</Original>
-            <English>Mute the warlords voice informer:</English>
-            <Russian>Заглушить голосовые оповещения Warlords:</Russian>
+            <Original>Warlords voice informer volume:</Original>
+            <English>Warlords voice informer volue:</English>
+            <Russian>Громкость голосовых оповещений Warlords:</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_general_kill_sound">
-            <Original>Play sound for kill reward:</Original>
-            <English>Play sound for kill reward:</English>
-            <Russian>Звук убийства противника:</Russian>
+            <Original>Kill reward sound volume:</Original>
+            <English>Kill reward sound volume:</English>
+            <Russian>Громкость награды за убийство:</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_general_autonomous_mode">
             <Original>Autonomous mode off by default:</Original>
@@ -1638,10 +1648,20 @@
             <English>Disable missile cameras:</English>
             <Russian>Отключить камеры ракет:</Russian>
         </Key>
+        <Key ID="STR_A3_WL_settings_general_instant_death">
+            <Original>Instant death:</Original>
+            <English>Instant death:</English>
+            <Russian>Мнгновенная смерть:</Russian>
+        </Key>
+        <Key ID="STR_A3_WL_settings_general_instant_death_tooltip">
+            <Original>Start respawn timer instantly, not waiting for allies to stabilize you</Original>
+            <English>Start respawn timer instantly, not waiting for allies to stabilize you</English>
+            <Russian>Запускать таймер возрождения моментально, не дожидаясь стабилизации от союзников</Russian>
+        </Key>
         <Key ID="STR_A3_WL_settings_general_user_markers">
             <Original>Show user-defined markers:</Original>
             <English>Show user-defined markers:</English>
-            <Russian>Отображать маркеры игроков:</Russian>
+            <Russian>Отображать маркеры игроков на карте:</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_general_no_voice_speaker">
             <Original>No voice speaker:</Original>
