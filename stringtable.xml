@@ -1651,7 +1651,7 @@
         <Key ID="STR_A3_WL_settings_general_instant_death">
             <Original>Instant death:</Original>
             <English>Instant death:</English>
-            <Russian>Мнгновенная смерть:</Russian>
+            <Russian>Мгновенная смерть:</Russian>
         </Key>
         <Key ID="STR_A3_WL_settings_general_instant_death_tooltip">
             <Original>Start respawn timer instantly, not waiting for allies to stabilize you</Original>
